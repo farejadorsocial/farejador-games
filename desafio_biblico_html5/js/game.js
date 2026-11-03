@@ -1,12 +1,22 @@
 (()=>{
 const $=id=>document.getElementById(id);
-const screens=['home','categories','game','over','result','info','recordsScreen'];
+const screens=['home','categories','game','over','result','info','recordsScreen','achievementsScreen'];
 let cat='ALL',list=[],idx=0,score=0,lives=3,correct=0,wrong=0,time=30,clock=null,locked=false,audio=null,music=null,sound=true,deadline=0,remaining=30;
 const names={AT:'ANTIGO TESTAMENTO',NT:'NOVO TESTAMENTO',PERS:'PERSONAGENS BÍBLICOS',HIST:'HISTÓRIAS BÍBLICAS',ALL:'JORNADA COMPLETA'};
 function show(s){screens.forEach(x=>$(x).classList.toggle('active',x===s));window.scrollTo(0,0)}
 function store(){try{return JSON.parse(localStorage.getItem('dbStats')||'{"best":0,"games":0,"correct":0,"answered":0}')}catch(e){return {best:0,games:0,correct:0,answered:0}}}
 function save(){const s=store(),newRecord=score>s.best;s.best=Math.max(s.best,score);s.games++;s.correct+=correct;s.answered+=correct+wrong;try{localStorage.setItem('dbStats',JSON.stringify(s))}catch(e){}return {stats:s,newRecord}}
 function records(){const s=store();$('best').textContent=s.best;$('games').textContent=s.games;$('correctTotal').textContent=s.correct;$('answered').textContent=s.answered}
+function achievements(){const s=store();const items=[
+{icon:'🌱',name:'Primeiros passos',desc:'Conclua sua primeira partida.',ok:s.games>=1,progress:Math.min(s.games,1),goal:1},
+{icon:'📖',name:'Estudioso',desc:'Conclua 5 partidas.',ok:s.games>=5,progress:Math.min(s.games,5),goal:5},
+{icon:'🏆',name:'Veterano',desc:'Conclua 20 partidas.',ok:s.games>=20,progress:Math.min(s.games,20),goal:20},
+{icon:'✨',name:'Boa memória',desc:'Acerte 10 perguntas ao todo.',ok:s.correct>=10,progress:Math.min(s.correct,10),goal:10},
+{icon:'💡',name:'Mente brilhante',desc:'Acerte 50 perguntas ao todo.',ok:s.correct>=50,progress:Math.min(s.correct,50),goal:50},
+{icon:'🔥',name:'Sequência de estudos',desc:'Alcance 100 acertos acumulados.',ok:s.correct>=100,progress:Math.min(s.correct,100),goal:100},
+{icon:'🥇',name:'Grande pontuação',desc:'Faça 70 pontos em uma partida.',ok:s.best>=70,progress:Math.min(s.best,70),goal:70},
+{icon:'👑',name:'Mestre bíblico',desc:'Faça 100 pontos em uma partida.',ok:s.best>=100,progress:Math.min(s.best,100),goal:100}
+];$('achievementList').innerHTML=items.map(a=>'<article class="achievement '+(a.ok?'unlocked':'')+'"><span class="achievement-icon">'+a.icon+'</span><div><b>'+a.name+'</b><small>'+a.desc+'</small><div class="achievement-track"><i style="width:'+(a.progress/a.goal*100)+'%"></i></div></div><strong>'+(a.ok?'DESBLOQUEADA':a.progress+'/'+a.goal)+'</strong></article>').join('')}
 function shuffle(a){const out=a.slice();for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]]}return out}
 function audioStart(){if(!sound)return;try{audio=audio||new(window.AudioContext||window.webkitAudioContext)();if(audio.state==='suspended')audio.resume();clearInterval(music);const seq=[146.83,174.61,220,174.61,130.81,164.81,196,164.81];let n=0;music=setInterval(()=>{if(!sound)return;[seq[n%8],seq[n%8]/2].forEach((f,i)=>{const o=audio.createOscillator(),g=audio.createGain();o.type=i?'triangle':'sine';o.frequency.value=f;g.gain.setValueAtTime(i?.008:.018,audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+.65);o.connect(g);g.connect(audio.destination);o.start();o.stop(audio.currentTime+.66)});n++},700)}catch(e){}}
 function beep(f){if(!sound)return;try{audio=audio||new(window.AudioContext||window.webkitAudioContext)();const o=audio.createOscillator(),g=audio.createGain();o.frequency.value=f;o.type='triangle';g.gain.value=.06;g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+.2);o.connect(g);g.connect(audio.destination);o.start();o.stop(audio.currentTime+.2)}catch(e){}}
@@ -21,7 +31,7 @@ function timeout(){if(locked)return;locked=true;lives--;wrong++;const q=list[idx
 function finish(completed){clearInterval(clock);const saved=save();if(completed){$('finalScore').textContent=score;$('finalStats').textContent=correct+' acertos • '+wrong+' erros';$('recordLine').textContent=saved.newRecord?'✧ NOVO RECORDE PESSOAL!':'Continue avançando em sua jornada';show('result')}else{$('overScore').textContent=score;$('overStats').textContent=correct+' acertos • '+wrong+' erros';show('over')}}
 $('play').onclick=()=>{audioStart();show('categories')};
 $('how').onclick=()=>show('info');
-$('records').onclick=()=>{records();show('recordsScreen')};
+$('records').onclick=()=>{records();show('recordsScreen')};\n$('achievements').onclick=()=>{achievements();show('achievementsScreen')};\n$('openAchievements').onclick=()=>{achievements();show('achievementsScreen')};
 document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>start(b.dataset.cat));
 document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>{clearInterval(clock);show('home');audioStart()});
 $('quit').onclick=()=>{if(confirm('Sair desta partida? Seu progresso desta rodada não será salvo.')){clearInterval(clock);show('categories')}};
