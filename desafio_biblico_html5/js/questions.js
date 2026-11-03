@@ -1118,5 +1118,565 @@ const QUESTION_BANK=[
     ],
     "reference": "Atos 9:1–6",
     "explanation": "Saulo estava a caminho de Damasco quando uma luz o cercou e ouviu a voz de Jesus."
+  },
+  {
+    "id": 81,
+    "category": "AT",
+    "question": "Qual era o nome do irmão de Moisés que foi escolhido como sumo sacerdote?",
+    "correct": "Arão",
+    "options": [
+      "Arão",
+      "Josué",
+      "Calebe",
+      "Gérson"
+    ],
+    "reference": "Êxodo 28:1",
+    "explanation": "Deus orientou que Arão e seus filhos fossem separados para o sacerdócio."
+  },
+  {
+    "id": 82,
+    "category": "AT",
+    "question": "Quem recebeu de Deus a missão de reconstruir os muros de Jerusalém?",
+    "correct": "Neemias",
+    "options": [
+      "Neemias",
+      "Esdras",
+      "Zorobabel",
+      "Ageu"
+    ],
+    "reference": "Neemias 2:17–18",
+    "explanation": "Neemias liderou a reconstrução dos muros de Jerusalém após receber autorização do rei."
+  },
+  {
+    "id": 83,
+    "category": "AT",
+    "question": "Qual jovem foi ungido por Samuel para ser rei depois de Saul?",
+    "correct": "Davi",
+    "options": [
+      "Davi",
+      "Jônatas",
+      "Absalão",
+      "Salomão"
+    ],
+    "reference": "1 Samuel 16:11–13",
+    "explanation": "Samuel ungiu Davi, o filho mais novo de Jessé."
+  },
+  {
+    "id": 84,
+    "category": "AT",
+    "question": "Quem foi o pai de Isaque?",
+    "correct": "Abraão",
+    "options": [
+      "Abraão",
+      "Jacó",
+      "Noé",
+      "Terá"
+    ],
+    "reference": "Gênesis 21:1–3",
+    "explanation": "Isaque nasceu de Abraão e Sara, conforme a promessa divina."
+  },
+  {
+    "id": 85,
+    "category": "AT",
+    "question": "Qual profeta foi alimentado por corvos junto ao ribeiro de Querite?",
+    "correct": "Elias",
+    "options": [
+      "Elias",
+      "Eliseu",
+      "Isaías",
+      "Jeremias"
+    ],
+    "reference": "1 Reis 17:2–6",
+    "explanation": "Deus ordenou que corvos levassem pão e carne a Elias junto ao ribeiro."
+  },
+  {
+    "id": 86,
+    "category": "AT",
+    "question": "Qual rei de Judá encontrou o Livro da Lei durante a reforma do templo?",
+    "correct": "Josias",
+    "options": [
+      "Josias",
+      "Ezequias",
+      "Roboão",
+      "Uzias"
+    ],
+    "reference": "2 Reis 22:8–11",
+    "explanation": "Durante as obras no templo, o sacerdote Hilquias encontrou o Livro da Lei, no reinado de Josias."
+  },
+  {
+    "id": 87,
+    "category": "AT",
+    "question": "Quem foi o pai de Salomão?",
+    "correct": "Davi",
+    "options": [
+      "Davi",
+      "Saul",
+      "Samuel",
+      "Abner"
+    ],
+    "reference": "2 Samuel 12:24; 1 Crônicas 3:5",
+    "explanation": "Salomão era filho do rei Davi e de Bate-Seba."
+  },
+  {
+    "id": 88,
+    "category": "AT",
+    "question": "Qual patriarca trabalhou sete anos para se casar com Raquel?",
+    "correct": "Jacó",
+    "options": [
+      "Jacó",
+      "Isaque",
+      "José",
+      "Abraão"
+    ],
+    "reference": "Gênesis 29:18–20",
+    "explanation": "Jacó trabalhou sete anos por Raquel, e esses anos lhe pareceram poucos dias."
+  },
+  {
+    "id": 89,
+    "category": "AT",
+    "question": "Quem liderou a construção do tabernáculo como artesão habilidoso, auxiliado por Aoliabe?",
+    "correct": "Bezalel",
+    "options": [
+      "Bezalel",
+      "Moisés",
+      "Arão",
+      "Hur"
+    ],
+    "reference": "Êxodo 31:1–6",
+    "explanation": "Deus encheu Bezalel de habilidade para executar trabalhos artísticos no tabernáculo."
+  },
+  {
+    "id": 90,
+    "category": "AT",
+    "question": "Qual profeta confrontou o rei Davi por causa de seu pecado com Bate-Seba?",
+    "correct": "Natã",
+    "options": [
+      "Natã",
+      "Gade",
+      "Samuel",
+      "Elias"
+    ],
+    "reference": "2 Samuel 12:1–7",
+    "explanation": "Natã contou uma parábola a Davi e o confrontou sobre seu pecado."
+  },
+  {
+    "id": 91,
+    "category": "NT",
+    "question": "Qual era o nome do pai de João e Tiago, os filhos do trovão?",
+    "correct": "Zebedeu",
+    "options": [
+      "Zebedeu",
+      "Alfeu",
+      "Jonas",
+      "Cleopas"
+    ],
+    "reference": "Mateus 4:21–22; Marcos 3:17",
+    "explanation": "Tiago e João eram filhos de Zebedeu e trabalhavam como pescadores."
+  },
+  {
+    "id": 92,
+    "category": "NT",
+    "question": "Quem foi obrigado a ajudar a carregar a cruz de Jesus?",
+    "correct": "Simão de Cirene",
+    "options": [
+      "Simão de Cirene",
+      "Simão Pedro",
+      "José de Arimateia",
+      "Nicodemos"
+    ],
+    "reference": "Marcos 15:21",
+    "explanation": "Simão de Cirene, que vinha do campo, foi convocado para carregar a cruz."
+  },
+  {
+    "id": 93,
+    "category": "NT",
+    "question": "Qual mulher ungiu os pés de Jesus e os enxugou com seus cabelos em Betânia?",
+    "correct": "Maria de Betânia",
+    "options": [
+      "Maria de Betânia",
+      "Marta",
+      "Joana",
+      "Salomé"
+    ],
+    "reference": "João 12:1–3",
+    "explanation": "Maria, irmã de Marta e Lázaro, ungiu os pés de Jesus com perfume e os enxugou com os cabelos."
+  },
+  {
+    "id": 94,
+    "category": "NT",
+    "question": "Em qual cidade Paulo e Silas foram presos após a libertação de uma jovem escravizada?",
+    "correct": "Filipos",
+    "options": [
+      "Filipos",
+      "Éfeso",
+      "Corinto",
+      "Tessalônica"
+    ],
+    "reference": "Atos 16:12–24",
+    "explanation": "O episódio ocorreu em Filipos, onde Paulo e Silas foram presos."
+  },
+  {
+    "id": 95,
+    "category": "NT",
+    "question": "Quem era o governador romano que autorizou a crucificação de Jesus?",
+    "correct": "Pôncio Pilatos",
+    "options": [
+      "Pôncio Pilatos",
+      "Félix",
+      "Festo",
+      "Sérgio Paulo"
+    ],
+    "reference": "João 19:15–16",
+    "explanation": "Pilatos entregou Jesus para ser crucificado."
+  },
+  {
+    "id": 96,
+    "category": "NT",
+    "question": "Qual discípulo era irmão de André?",
+    "correct": "Simão Pedro",
+    "options": [
+      "Simão Pedro",
+      "Tiago",
+      "João",
+      "Filipe"
+    ],
+    "reference": "Mateus 4:18",
+    "explanation": "André e Simão, chamado Pedro, eram irmãos e pescadores."
+  },
+  {
+    "id": 97,
+    "category": "NT",
+    "question": "Quem foi o jovem que caiu de uma janela durante uma longa pregação de Paulo?",
+    "correct": "Êutico",
+    "options": [
+      "Êutico",
+      "Trófimo",
+      "Onésimo",
+      "Timóteo"
+    ],
+    "reference": "Atos 20:7–12",
+    "explanation": "Êutico adormeceu durante a fala prolongada de Paulo e caiu do terceiro andar."
+  },
+  {
+    "id": 98,
+    "category": "NT",
+    "question": "Qual livro do Novo Testamento começa apresentando a genealogia de Jesus?",
+    "correct": "Mateus",
+    "options": [
+      "Mateus",
+      "Marcos",
+      "Lucas",
+      "João"
+    ],
+    "reference": "Mateus 1:1–17",
+    "explanation": "O Evangelho segundo Mateus começa com a genealogia de Jesus Cristo."
+  },
+  {
+    "id": 99,
+    "category": "NT",
+    "question": "Quem foi o primeiro gentio batizado após a visão de Pedro em Jope?",
+    "correct": "Cornélio",
+    "options": [
+      "Cornélio",
+      "Sérgio Paulo",
+      "Eunuco etíope",
+      "Lídia"
+    ],
+    "reference": "Atos 10:1–48",
+    "explanation": "Pedro anunciou o evangelho na casa de Cornélio, onde o Espírito Santo veio sobre os ouvintes."
+  },
+  {
+    "id": 100,
+    "category": "NT",
+    "question": "Qual apóstolo escreveu a carta aos Romanos?",
+    "correct": "Paulo",
+    "options": [
+      "Paulo",
+      "Pedro",
+      "João",
+      "Tiago"
+    ],
+    "reference": "Romanos 1:1",
+    "explanation": "A carta identifica Paulo como seu remetente."
+  },
+  {
+    "id": 101,
+    "category": "PERS",
+    "question": "Quem foi a esposa de Isaque e mãe de Esaú e Jacó?",
+    "correct": "Rebeca",
+    "options": [
+      "Rebeca",
+      "Raquel",
+      "Lia",
+      "Sara"
+    ],
+    "reference": "Gênesis 24:67; 25:20–26",
+    "explanation": "Rebeca casou-se com Isaque e deu à luz os gêmeos Esaú e Jacó."
+  },
+  {
+    "id": 102,
+    "category": "PERS",
+    "question": "Qual filho de Jacó recebeu uma túnica especial de seu pai?",
+    "correct": "José",
+    "options": [
+      "José",
+      "Rúben",
+      "Judá",
+      "Benjamim"
+    ],
+    "reference": "Gênesis 37:3",
+    "explanation": "Jacó amava José de modo especial e lhe fez uma túnica longa."
+  },
+  {
+    "id": 103,
+    "category": "PERS",
+    "question": "Quem foi a irmã de Moisés que observou o cesto no rio?",
+    "correct": "Miriã",
+    "options": [
+      "Miriã",
+      "Débora",
+      "Zípora",
+      "Mical"
+    ],
+    "reference": "Êxodo 2:4–8",
+    "explanation": "A irmã do menino acompanhou o cesto e ofereceu chamar uma ama hebreia."
+  },
+  {
+    "id": 104,
+    "category": "PERS",
+    "question": "Qual rei pediu a cabeça de João Batista após uma dança durante seu aniversário?",
+    "correct": "Herodes Antipas",
+    "options": [
+      "Herodes Antipas",
+      "Herodes Agripa I",
+      "César Augusto",
+      "Pôncio Pilatos"
+    ],
+    "reference": "Marcos 6:21–28",
+    "explanation": "Herodes Antipas ordenou a execução de João após fazer um juramento diante dos convidados."
+  },
+  {
+    "id": 105,
+    "category": "PERS",
+    "question": "Quem foi o mestre de Paulo na tradição farisaica, mencionado em Atos?",
+    "correct": "Gamaliel",
+    "options": [
+      "Gamaliel",
+      "Anás",
+      "Caifás",
+      "Nicodemos"
+    ],
+    "reference": "Atos 22:3",
+    "explanation": "Paulo afirmou ter sido instruído aos pés de Gamaliel."
+  },
+  {
+    "id": 106,
+    "category": "PERS",
+    "question": "Qual mulher hospedou Paulo e seus companheiros em sua casa em Filipos?",
+    "correct": "Lídia",
+    "options": [
+      "Lídia",
+      "Priscila",
+      "Febe",
+      "Dorcas"
+    ],
+    "reference": "Atos 16:14–15",
+    "explanation": "Lídia, vendedora de púrpura, recebeu o batismo e insistiu para que os missionários ficassem em sua casa."
+  },
+  {
+    "id": 107,
+    "category": "PERS",
+    "question": "Quem era o discípulo chamado também de Dídimo?",
+    "correct": "Tomé",
+    "options": [
+      "Tomé",
+      "Natanael",
+      "Bartolomeu",
+      "Judas Tadeu"
+    ],
+    "reference": "João 11:16; 20:24",
+    "explanation": "O Evangelho de João identifica Tomé pelo nome Dídimo."
+  },
+  {
+    "id": 108,
+    "category": "PERS",
+    "question": "Qual profetisa reconheceu Jesus quando ele foi apresentado no templo?",
+    "correct": "Ana",
+    "options": [
+      "Ana",
+      "Isabel",
+      "Marta",
+      "Joana"
+    ],
+    "reference": "Lucas 2:36–38",
+    "explanation": "Ana, filha de Fanuel, agradeceu a Deus e falou sobre o menino aos que aguardavam a redenção."
+  },
+  {
+    "id": 109,
+    "category": "PERS",
+    "question": "Quem foi o companheiro de Paulo conhecido como médico amado?",
+    "correct": "Lucas",
+    "options": [
+      "Lucas",
+      "Marcos",
+      "Silas",
+      "Tito"
+    ],
+    "reference": "Colossenses 4:14",
+    "explanation": "Paulo chama Lucas de médico amado em sua carta aos colossenses."
+  },
+  {
+    "id": 110,
+    "category": "PERS",
+    "question": "Qual juiz fez um voto precipitado antes de lutar contra os amonitas?",
+    "correct": "Jefté",
+    "options": [
+      "Jefté",
+      "Gideão",
+      "Sansão",
+      "Débora"
+    ],
+    "reference": "Juízes 11:30–35",
+    "explanation": "Jefté fez um voto antes da batalha, que teve consequências dolorosas quando voltou para casa."
+  },
+  {
+    "id": 111,
+    "category": "HIST",
+    "question": "Em qual monte Moisés recebeu os Dez Mandamentos?",
+    "correct": "Monte Sinai",
+    "options": [
+      "Monte Sinai",
+      "Monte Nebo",
+      "Monte Carmelo",
+      "Monte Sião"
+    ],
+    "reference": "Êxodo 19:20; 20:1–17",
+    "explanation": "A narrativa de Êxodo situa a entrega dos mandamentos no monte Sinai."
+  },
+  {
+    "id": 112,
+    "category": "HIST",
+    "question": "Qual objeto foi colocado diante da arca da aliança como sinal relacionado à escolha de Arão?",
+    "correct": "A vara de Arão que floresceu",
+    "options": [
+      "A vara de Arão que floresceu",
+      "A espada de Josué",
+      "A coroa de Saul",
+      "O cajado de Davi"
+    ],
+    "reference": "Números 17:1–10",
+    "explanation": "A vara de Arão brotou, floresceu e produziu amêndoas como sinal escolhido por Deus."
+  },
+  {
+    "id": 113,
+    "category": "HIST",
+    "question": "Quantos dias Jesus jejuou no deserto antes de ser tentado?",
+    "correct": "Quarenta dias",
+    "options": [
+      "Quarenta dias",
+      "Sete dias",
+      "Doze dias",
+      "Trinta dias"
+    ],
+    "reference": "Mateus 4:1–2",
+    "explanation": "Mateus relata que Jesus jejuou quarenta dias e quarenta noites."
+  },
+  {
+    "id": 114,
+    "category": "HIST",
+    "question": "Qual foi o nome do lugar onde Jacó sonhou com uma escada que chegava ao céu?",
+    "correct": "Betel",
+    "options": [
+      "Betel",
+      "Hebrom",
+      "Siquém",
+      "Gilgal"
+    ],
+    "reference": "Gênesis 28:10–19",
+    "explanation": "Jacó chamou de Betel o lugar onde teve o sonho e reconheceu a presença de Deus."
+  },
+  {
+    "id": 115,
+    "category": "HIST",
+    "question": "O que os israelitas deveriam passar nos batentes das portas na noite da Páscoa no Egito?",
+    "correct": "Sangue de um cordeiro",
+    "options": [
+      "Sangue de um cordeiro",
+      "Azeite de oliva",
+      "Água do Nilo",
+      "Cinzas de incenso"
+    ],
+    "reference": "Êxodo 12:3–7, 12–13",
+    "explanation": "O sangue do cordeiro deveria ser colocado nos batentes e na verga das portas como sinal."
+  },
+  {
+    "id": 116,
+    "category": "HIST",
+    "question": "Qual instrumento Davi tocava para acalmar Saul?",
+    "correct": "Harpa",
+    "options": [
+      "Harpa",
+      "Trombeta",
+      "Tambor",
+      "Flauta"
+    ],
+    "reference": "1 Samuel 16:23",
+    "explanation": "Davi tocava o instrumento, geralmente traduzido como harpa ou lira, e Saul se sentia aliviado."
+  },
+  {
+    "id": 117,
+    "category": "HIST",
+    "question": "Qual foi o destino de Jonas depois que saiu do grande peixe?",
+    "correct": "Foi a Nínive",
+    "options": [
+      "Foi a Nínive",
+      "Foi a Babilônia",
+      "Foi a Jerusalém",
+      "Foi ao Egito"
+    ],
+    "reference": "Jonas 3:1–3",
+    "explanation": "Após ser chamado novamente, Jonas foi a Nínive e anunciou a mensagem de Deus."
+  },
+  {
+    "id": 118,
+    "category": "HIST",
+    "question": "Em qual caminho dois discípulos encontraram Jesus ressuscitado sem reconhecê-lo inicialmente?",
+    "correct": "Caminho de Emaús",
+    "options": [
+      "Caminho de Emaús",
+      "Estrada de Jericó",
+      "Caminho de Damasco",
+      "Estrada de Betânia"
+    ],
+    "reference": "Lucas 24:13–32",
+    "explanation": "Dois discípulos caminhavam para Emaús quando Jesus se aproximou e conversou com eles."
+  },
+  {
+    "id": 119,
+    "category": "HIST",
+    "question": "Qual era o nome do tanque onde Jesus curou um homem enfermo havia 38 anos?",
+    "correct": "Betesda",
+    "options": [
+      "Betesda",
+      "Siloé",
+      "Cedrom",
+      "Gibeão"
+    ],
+    "reference": "João 5:1–9",
+    "explanation": "Jesus encontrou o homem junto ao tanque chamado Betesda."
+  },
+  {
+    "id": 120,
+    "category": "HIST",
+    "question": "Qual cidade Paulo visitou onde os moradores examinaram diariamente as Escrituras para conferir sua mensagem?",
+    "correct": "Bereia",
+    "options": [
+      "Bereia",
+      "Atenas",
+      "Corinto",
+      "Tessalônica"
+    ],
+    "reference": "Atos 17:10–12",
+    "explanation": "Os bereanos receberam a mensagem com interesse e examinavam diariamente as Escrituras."
   }
 ];
