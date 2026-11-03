@@ -31,7 +31,9 @@ function timeout(){if(locked)return;locked=true;lives--;wrong++;const q=list[idx
 function finish(completed){clearInterval(clock);const saved=save();if(completed){$('finalScore').textContent=score;$('finalStats').textContent=correct+' acertos • '+wrong+' erros';$('recordLine').textContent=saved.newRecord?'✧ NOVO RECORDE PESSOAL!':'Continue avançando em sua jornada';show('result')}else{$('overScore').textContent=score;$('overStats').textContent=correct+' acertos • '+wrong+' erros';show('over')}}
 $('play').onclick=()=>{audioStart();show('categories')};
 $('how').onclick=()=>show('info');
-$('records').onclick=()=>{records();show('recordsScreen')};\n$('achievements').onclick=()=>{achievements();show('achievementsScreen')};\n$('openAchievements').onclick=()=>{achievements();show('achievementsScreen')};
+$('records').onclick=()=>{records();show('recordsScreen')};
+$('achievements').onclick=()=>{achievements();show('achievementsScreen')};
+$('openAchievements').onclick=()=>{achievements();show('achievementsScreen')};
 document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>start(b.dataset.cat));
 document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>{clearInterval(clock);show('home');audioStart()});
 $('quit').onclick=()=>{if(confirm('Sair desta partida? Seu progresso desta rodada não será salvo.')){clearInterval(clock);show('categories')}};
