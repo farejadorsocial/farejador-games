@@ -1678,5 +1678,565 @@ const QUESTION_BANK=[
     ],
     "reference": "Atos 17:10–12",
     "explanation": "Os bereanos receberam a mensagem com interesse e examinavam diariamente as Escrituras."
+  },
+  {
+    "id": 121,
+    "category": "AT",
+    "question": "Qual filho de Jacó recebeu o nome de Israel?",
+    "correct": "Jacó",
+    "options": [
+      "Jacó",
+      "José",
+      "Judá",
+      "Efraim"
+    ],
+    "reference": "Gênesis 32:27–28",
+    "explanation": "Depois de lutar com o homem até o amanhecer, Jacó recebeu o nome Israel."
+  },
+  {
+    "id": 122,
+    "category": "AT",
+    "question": "Qual era o nome do irmão de Rebeca?",
+    "correct": "Labão",
+    "options": [
+      "Labão",
+      "Betuel",
+      "Ismael",
+      "Elifaz"
+    ],
+    "reference": "Gênesis 24:29",
+    "explanation": "Labão era irmão de Rebeca e recebeu o servo de Abraão."
+  },
+  {
+    "id": 123,
+    "category": "AT",
+    "question": "Quem foi o primeiro rei de Israel?",
+    "correct": "Saul",
+    "options": [
+      "Saul",
+      "Davi",
+      "Salomão",
+      "Samuel"
+    ],
+    "reference": "1 Samuel 10:1",
+    "explanation": "Samuel ungiu Saul como primeiro rei de Israel."
+  },
+  {
+    "id": 124,
+    "category": "AT",
+    "question": "Qual profeta sucedeu Elias em seu ministério?",
+    "correct": "Eliseu",
+    "options": [
+      "Eliseu",
+      "Isaías",
+      "Jeremias",
+      "Oseias"
+    ],
+    "reference": "2 Reis 2:9–15",
+    "explanation": "Eliseu recebeu a porção dobrada pedida e continuou o ministério profético."
+  },
+  {
+    "id": 125,
+    "category": "AT",
+    "question": "Quem encontrou Moisés quando ele foi colocado em um cesto no rio?",
+    "correct": "A filha de Faraó",
+    "options": [
+      "A filha de Faraó",
+      "A esposa de Potifar",
+      "A rainha de Sabá",
+      "A mãe de Samuel"
+    ],
+    "reference": "Êxodo 2:5–10",
+    "explanation": "A filha de Faraó encontrou o cesto entre os juncos e adotou o menino."
+  },
+  {
+    "id": 126,
+    "category": "AT",
+    "question": "Qual era o nome do pai de Davi?",
+    "correct": "Jessé",
+    "options": [
+      "Jessé",
+      "Obede",
+      "Boaz",
+      "Saul"
+    ],
+    "reference": "1 Samuel 16:1",
+    "explanation": "Davi era filho de Jessé, de Belém."
+  },
+  {
+    "id": 127,
+    "category": "AT",
+    "question": "Qual profeta foi enviado por Deus para ungir Jeú como rei?",
+    "correct": "Um discípulo dos profetas",
+    "options": [
+      "Um discípulo dos profetas",
+      "Natã",
+      "Samuel",
+      "Aías"
+    ],
+    "reference": "2 Reis 9:1–3",
+    "explanation": "Eliseu enviou um dos discípulos dos profetas para ungir Jeú."
+  },
+  {
+    "id": 128,
+    "category": "AT",
+    "question": "Qual juiz derrotou os midianitas com apenas trezentos homens?",
+    "correct": "Gideão",
+    "options": [
+      "Gideão",
+      "Sansão",
+      "Jefté",
+      "Otniel"
+    ],
+    "reference": "Juízes 7:7, 19–22",
+    "explanation": "Deus reduziu o exército de Gideão a trezentos homens."
+  },
+  {
+    "id": 129,
+    "category": "AT",
+    "question": "Quem foi o homem que viveu 969 anos, segundo Gênesis?",
+    "correct": "Matusalém",
+    "options": [
+      "Matusalém",
+      "Enoque",
+      "Noé",
+      "Lameque"
+    ],
+    "reference": "Gênesis 5:27",
+    "explanation": "Matusalém viveu 969 anos, a maior idade registrada na genealogia."
+  },
+  {
+    "id": 130,
+    "category": "AT",
+    "question": "Qual profeta anunciou a reconstrução do templo junto com Zacarias após o exílio?",
+    "correct": "Ageu",
+    "options": [
+      "Ageu",
+      "Malaquias",
+      "Jonas",
+      "Naum"
+    ],
+    "reference": "Esdras 5:1–2; Ageu 1:1",
+    "explanation": "Ageu e Zacarias profetizaram ao povo sobre a retomada da obra do templo."
+  },
+  {
+    "id": 131,
+    "category": "NT",
+    "question": "Qual discípulo era conhecido como o publicano antes de seguir Jesus?",
+    "correct": "Mateus",
+    "options": [
+      "Mateus",
+      "Pedro",
+      "João",
+      "Tomé"
+    ],
+    "reference": "Mateus 9:9",
+    "explanation": "Jesus chamou Mateus quando ele estava sentado na coletoria."
+  },
+  {
+    "id": 132,
+    "category": "NT",
+    "question": "Quem apresentou o menino Jesus no templo e falou com Maria e José?",
+    "correct": "Simeão",
+    "options": [
+      "Simeão",
+      "Nicodemos",
+      "Zacarias",
+      "José de Arimateia"
+    ],
+    "reference": "Lucas 2:25–34",
+    "explanation": "Simeão tomou Jesus nos braços e bendisse a Deus."
+  },
+  {
+    "id": 133,
+    "category": "NT",
+    "question": "Qual era o nome do cego curado por Jesus perto de Jericó, segundo Marcos?",
+    "correct": "Bartimeu",
+    "options": [
+      "Bartimeu",
+      "Malco",
+      "Êutico",
+      "Jairo"
+    ],
+    "reference": "Marcos 10:46–52",
+    "explanation": "Bartimeu clamou por Jesus e recuperou a visão."
+  },
+  {
+    "id": 134,
+    "category": "NT",
+    "question": "Quem foi o primeiro discípulo a chegar ao túmulo de Jesus, segundo o relato de João?",
+    "correct": "João, o discípulo amado",
+    "options": [
+      "João, o discípulo amado",
+      "Pedro",
+      "André",
+      "Filipe"
+    ],
+    "reference": "João 20:2–8",
+    "explanation": "O outro discípulo chegou primeiro ao túmulo, embora Pedro tenha entrado antes."
+  },
+  {
+    "id": 135,
+    "category": "NT",
+    "question": "Qual era a profissão de Lucas, tradicionalmente identificado como autor do terceiro Evangelho?",
+    "correct": "Médico",
+    "options": [
+      "Médico",
+      "Pescador",
+      "Cobrador de impostos",
+      "Carpinteiro"
+    ],
+    "reference": "Colossenses 4:14",
+    "explanation": "Paulo se refere a Lucas como o médico amado."
+  },
+  {
+    "id": 136,
+    "category": "NT",
+    "question": "Qual mulher vendeu púrpura e acolheu Paulo em Filipos?",
+    "correct": "Lídia",
+    "options": [
+      "Lídia",
+      "Priscila",
+      "Febe",
+      "Dorcas"
+    ],
+    "reference": "Atos 16:14–15",
+    "explanation": "Lídia era vendedora de púrpura e ofereceu hospedagem aos missionários."
+  },
+  {
+    "id": 137,
+    "category": "NT",
+    "question": "Qual apóstolo escreveu o livro de Apocalipse, conforme a identificação do próprio livro?",
+    "correct": "João",
+    "options": [
+      "João",
+      "Pedro",
+      "Paulo",
+      "Tiago"
+    ],
+    "reference": "Apocalipse 1:1, 4, 9",
+    "explanation": "O livro identifica João como aquele que recebeu e registrou a revelação."
+  },
+  {
+    "id": 138,
+    "category": "NT",
+    "question": "Quem foi o jovem que acompanhou Paulo e Barnabé, mas depois voltou para Jerusalém?",
+    "correct": "João Marcos",
+    "options": [
+      "João Marcos",
+      "Timóteo",
+      "Tito",
+      "Silas"
+    ],
+    "reference": "Atos 13:5, 13",
+    "explanation": "João Marcos os acompanhou como auxiliar e depois deixou a equipe em Perge."
+  },
+  {
+    "id": 139,
+    "category": "NT",
+    "question": "Quem foi o homem que pediu a Jesus que curasse seu servo à distância?",
+    "correct": "Um centurião",
+    "options": [
+      "Um centurião",
+      "Jairo",
+      "Nicodemos",
+      "Zaqueu"
+    ],
+    "reference": "Mateus 8:5–13",
+    "explanation": "O centurião demonstrou fé na autoridade de Jesus para curar à distância."
+  },
+  {
+    "id": 140,
+    "category": "NT",
+    "question": "Quem era o pai de João Batista?",
+    "correct": "Zacarias",
+    "options": [
+      "Zacarias",
+      "José",
+      "Joaquim",
+      "Simeão"
+    ],
+    "reference": "Lucas 1:5–13",
+    "explanation": "Zacarias e Isabel receberam a promessa do nascimento de João."
+  },
+  {
+    "id": 141,
+    "category": "PERS",
+    "question": "Qual era o nome da esposa de Abraão antes de ter seu nome mudado?",
+    "correct": "Sarai",
+    "options": [
+      "Sarai",
+      "Agar",
+      "Rebeca",
+      "Quetura"
+    ],
+    "reference": "Gênesis 17:15",
+    "explanation": "Deus mudou o nome de Sarai para Sara."
+  },
+  {
+    "id": 142,
+    "category": "PERS",
+    "question": "Quem era a esposa de Jacó que foi mãe de José e Benjamim?",
+    "correct": "Raquel",
+    "options": [
+      "Raquel",
+      "Lia",
+      "Zilpa",
+      "Bila"
+    ],
+    "reference": "Gênesis 30:22–24; 35:16–18",
+    "explanation": "Raquel deu à luz José e, mais tarde, Benjamim."
+  },
+  {
+    "id": 143,
+    "category": "PERS",
+    "question": "Qual era o nome do pai de João Batista?",
+    "correct": "Zacarias",
+    "options": [
+      "Zacarias",
+      "José",
+      "Joaquim",
+      "Simeão"
+    ],
+    "reference": "Lucas 1:5–13",
+    "explanation": "Zacarias era sacerdote e marido de Isabel."
+  },
+  {
+    "id": 144,
+    "category": "PERS",
+    "question": "Quem foi o irmão de Moisés que o acompanhou diante de Faraó?",
+    "correct": "Arão",
+    "options": [
+      "Arão",
+      "Josué",
+      "Calebe",
+      "Hur"
+    ],
+    "reference": "Êxodo 4:14–16",
+    "explanation": "Arão foi escolhido para falar em nome de Moisés."
+  },
+  {
+    "id": 145,
+    "category": "PERS",
+    "question": "Qual mulher se tornou rainha da Pérsia e intercedeu pelos judeus?",
+    "correct": "Ester",
+    "options": [
+      "Ester",
+      "Vasti",
+      "Rute",
+      "Mical"
+    ],
+    "reference": "Ester 4:14–16",
+    "explanation": "Ester arriscou a vida ao comparecer diante do rei para defender seu povo."
+  },
+  {
+    "id": 146,
+    "category": "PERS",
+    "question": "Qual era o nome do filho de Jônatas que Davi acolheu à sua mesa?",
+    "correct": "Mefibosete",
+    "options": [
+      "Mefibosete",
+      "Isbosete",
+      "Absalão",
+      "Adonias"
+    ],
+    "reference": "2 Samuel 9:6–13",
+    "explanation": "Davi tratou Mefibosete com bondade por causa de sua amizade com Jônatas."
+  },
+  {
+    "id": 147,
+    "category": "PERS",
+    "question": "Qual profeta foi contemporâneo de Daniel e teve visões junto ao rio Quebar?",
+    "correct": "Ezequiel",
+    "options": [
+      "Ezequiel",
+      "Ageu",
+      "Amós",
+      "Malaquias"
+    ],
+    "reference": "Ezequiel 1:1–3",
+    "explanation": "Ezequiel recebeu visões enquanto estava entre os exilados junto ao rio Quebar."
+  },
+  {
+    "id": 148,
+    "category": "PERS",
+    "question": "Quem foi o sogro de Moisés?",
+    "correct": "Jetro",
+    "options": [
+      "Jetro",
+      "Labão",
+      "Boaz",
+      "Elcana"
+    ],
+    "reference": "Êxodo 3:1; 18:1",
+    "explanation": "Jetro era sacerdote de Midiã e sogro de Moisés."
+  },
+  {
+    "id": 149,
+    "category": "PERS",
+    "question": "Qual era o nome do irmão de Maria e Marta?",
+    "correct": "Lázaro",
+    "options": [
+      "Lázaro",
+      "Jairo",
+      "Bartimeu",
+      "Simão"
+    ],
+    "reference": "João 11:1–2",
+    "explanation": "Lázaro vivia em Betânia com suas irmãs Maria e Marta."
+  },
+  {
+    "id": 150,
+    "category": "PERS",
+    "question": "Qual apóstolo era irmão de Tiago e filho de Zebedeu?",
+    "correct": "João",
+    "options": [
+      "João",
+      "André",
+      "Filipe",
+      "Mateus"
+    ],
+    "reference": "Mateus 4:21",
+    "explanation": "João e Tiago eram irmãos e filhos de Zebedeu."
+  },
+  {
+    "id": 151,
+    "category": "HIST",
+    "question": "Qual foi o sinal usado por Deus para confirmar a aliança com Abraão, segundo Gênesis 17?",
+    "correct": "A circuncisão",
+    "options": [
+      "A circuncisão",
+      "O arco-íris",
+      "A coluna de fogo",
+      "O maná"
+    ],
+    "reference": "Gênesis 17:10–11",
+    "explanation": "A circuncisão foi estabelecida como sinal da aliança com Abraão."
+  },
+  {
+    "id": 152,
+    "category": "HIST",
+    "question": "O que aconteceu com as muralhas de Jericó depois que o povo marchou ao redor da cidade?",
+    "correct": "Caíram",
+    "options": [
+      "Caíram",
+      "Foram queimadas por Israel",
+      "Foram inundadas",
+      "Desapareceram durante a noite"
+    ],
+    "reference": "Josué 6:20",
+    "explanation": "As muralhas caíram após o povo gritar e tocar as trombetas."
+  },
+  {
+    "id": 153,
+    "category": "HIST",
+    "question": "Qual foi o alimento que Elias recebeu dos corvos junto ao ribeiro de Querite?",
+    "correct": "Pão e carne",
+    "options": [
+      "Pão e carne",
+      "Maná e codornizes",
+      "Peixe e mel",
+      "Trigo e azeite"
+    ],
+    "reference": "1 Reis 17:4–6",
+    "explanation": "Os corvos levavam pão e carne a Elias pela manhã e à tarde."
+  },
+  {
+    "id": 154,
+    "category": "HIST",
+    "question": "O que Jesus fez durante uma tempestade enquanto estava no barco com os discípulos?",
+    "correct": "Acalmou o vento e o mar",
+    "options": [
+      "Acalmou o vento e o mar",
+      "Transformou a água em vinho",
+      "Fez o barco voar",
+      "Chamou fogo do céu"
+    ],
+    "reference": "Marcos 4:35–41",
+    "explanation": "Jesus repreendeu o vento e ordenou ao mar que se aquietasse."
+  },
+  {
+    "id": 155,
+    "category": "HIST",
+    "question": "Qual foi o sinal que apareceu no céu após o dilúvio como lembrança da aliança de Deus?",
+    "correct": "Arco-íris",
+    "options": [
+      "Arco-íris",
+      "Estrela brilhante",
+      "Nuvem de fogo",
+      "Pomba branca"
+    ],
+    "reference": "Gênesis 9:12–17",
+    "explanation": "Deus estabeleceu o arco-íris como sinal da aliança com toda a terra."
+  },
+  {
+    "id": 156,
+    "category": "HIST",
+    "question": "Qual instrumento foi usado pelos sacerdotes para anunciar o jubileu?",
+    "correct": "Trombeta",
+    "options": [
+      "Trombeta",
+      "Harpa",
+      "Flauta",
+      "Tambor"
+    ],
+    "reference": "Levítico 25:9",
+    "explanation": "A trombeta deveria soar no dia da expiação para anunciar o ano do jubileu."
+  },
+  {
+    "id": 157,
+    "category": "HIST",
+    "question": "O que aconteceu quando Pedro e João oraram pelos samaritanos que haviam crido?",
+    "correct": "Eles receberam o Espírito Santo",
+    "options": [
+      "Eles receberam o Espírito Santo",
+      "As muralhas caíram",
+      "Começou a chover maná",
+      "A prisão se abriu"
+    ],
+    "reference": "Atos 8:14–17",
+    "explanation": "Pedro e João impuseram as mãos sobre os samaritanos, que receberam o Espírito Santo."
+  },
+  {
+    "id": 158,
+    "category": "HIST",
+    "question": "Qual foi o nome do lugar onde Jesus transformou água em vinho?",
+    "correct": "Caná da Galileia",
+    "options": [
+      "Caná da Galileia",
+      "Betânia",
+      "Nazaré",
+      "Cafarnaum"
+    ],
+    "reference": "João 2:1–11",
+    "explanation": "O primeiro sinal de Jesus no Evangelho de João ocorreu em um casamento em Caná."
+  },
+  {
+    "id": 159,
+    "category": "HIST",
+    "question": "O que aconteceu com Paulo e Silas enquanto oravam e cantavam na prisão?",
+    "correct": "Um terremoto abriu as portas",
+    "options": [
+      "Um terremoto abriu as portas",
+      "O carcereiro fugiu",
+      "A prisão foi inundada",
+      "Um soldado os levou ao templo"
+    ],
+    "reference": "Atos 16:25–26",
+    "explanation": "Um terremoto sacudiu os alicerces e abriu as portas da prisão."
+  },
+  {
+    "id": 160,
+    "category": "HIST",
+    "question": "Qual objeto caiu na água e foi recuperado por Eliseu fazendo o ferro flutuar?",
+    "correct": "A cabeça de um machado",
+    "options": [
+      "A cabeça de um machado",
+      "Uma espada",
+      "Uma moeda",
+      "Uma chave"
+    ],
+    "reference": "2 Reis 6:1–7",
+    "explanation": "A cabeça de ferro do machado caiu no Jordão e Eliseu fez com que flutuasse."
   }
 ];
