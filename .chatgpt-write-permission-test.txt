@@ -1,0 +1,2 @@
+Teste temporario de permissao de escrita do ChatGPT Connector.
+Este arquivo sera removido imediatamente.
