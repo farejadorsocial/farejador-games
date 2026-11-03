@@ -2238,5 +2238,565 @@ const QUESTION_BANK=[
     ],
     "reference": "2 Reis 6:1–7",
     "explanation": "A cabeça de ferro do machado caiu no Jordão e Eliseu fez com que flutuasse."
+  },
+  {
+    "id": 161,
+    "category": "AT",
+    "question": "Qual era o nome do pai de Matusalém?",
+    "correct": "Enoque",
+    "reference": "Gênesis 5:21–22",
+    "explanation": "Enoque gerou Matusalém e andou com Deus.",
+    "options": [
+      "Enoque",
+      "Jarede",
+      "Lameque",
+      "Noé"
+    ]
+  },
+  {
+    "id": 162,
+    "category": "AT",
+    "question": "Quem foi o rei que consultou a profetisa Hulda após a descoberta do Livro da Lei?",
+    "correct": "Josias",
+    "reference": "2 Reis 22:11–14",
+    "explanation": "Josias consultou Hulda após ouvir a leitura do Livro da Lei.",
+    "options": [
+      "Josias",
+      "Ezequias",
+      "Manassés",
+      "Acaz"
+    ]
+  },
+  {
+    "id": 163,
+    "category": "AT",
+    "question": "Qual era o nome do irmão de Jacó que nasceu primeiro?",
+    "correct": "Esaú",
+    "reference": "Gênesis 25:24–26",
+    "explanation": "Esaú nasceu primeiro, seguido por seu irmão gêmeo Jacó.",
+    "options": [
+      "Esaú",
+      "José",
+      "Judá",
+      "Benjamim"
+    ]
+  },
+  {
+    "id": 164,
+    "category": "AT",
+    "question": "Quem foi o rei de Moabe que tentou contratar Balaão para amaldiçoar Israel?",
+    "correct": "Balaque",
+    "reference": "Números 22:2–6",
+    "explanation": "Balaque enviou mensageiros a Balaão para tentar fazê-lo amaldiçoar Israel.",
+    "options": [
+      "Balaque",
+      "Seom",
+      "Ogue",
+      "Eglom"
+    ]
+  },
+  {
+    "id": 165,
+    "category": "AT",
+    "question": "Qual juiz canhoto matou o rei Eglom de Moabe?",
+    "correct": "Eúde",
+    "reference": "Juízes 3:15–22",
+    "explanation": "Eúde matou Eglom e libertou Israel da opressão moabita.",
+    "options": [
+      "Eúde",
+      "Sangar",
+      "Gideão",
+      "Jefté"
+    ]
+  },
+  {
+    "id": 166,
+    "category": "AT",
+    "question": "Quem foi o rei que viu uma mão escrevendo na parede durante um banquete?",
+    "correct": "Belsazar",
+    "reference": "Daniel 5:1–5",
+    "explanation": "Belsazar viu os dedos de uma mão escrevendo na parede do palácio.",
+    "options": [
+      "Belsazar",
+      "Dario",
+      "Ciro",
+      "Nabucodonosor"
+    ]
+  },
+  {
+    "id": 167,
+    "category": "AT",
+    "question": "Qual era o nome do filho de Noé que recebeu a bênção de seu pai após o episódio da tenda?",
+    "correct": "Sem",
+    "reference": "Gênesis 9:23–27",
+    "explanation": "Sem e Jafé cobriram a nudez de Noé e receberam sua bênção.",
+    "options": [
+      "Sem",
+      "Cam",
+      "Jafé",
+      "Canaã"
+    ]
+  },
+  {
+    "id": 168,
+    "category": "AT",
+    "question": "Qual profeta foi enviado a Nínive e inicialmente tentou fugir da missão?",
+    "correct": "Jonas",
+    "reference": "Jonas 1:1–3",
+    "explanation": "Jonas embarcou para Társis em vez de seguir para Nínive.",
+    "options": [
+      "Jonas",
+      "Naum",
+      "Habacuque",
+      "Sofonias"
+    ]
+  },
+  {
+    "id": 169,
+    "category": "AT",
+    "question": "Qual era o nome do comandante do exército de Saul que foi morto por Joabe?",
+    "correct": "Abner",
+    "reference": "2 Samuel 3:26–30",
+    "explanation": "Joabe matou Abner depois de atraí-lo de volta a Hebrom.",
+    "options": [
+      "Abner",
+      "Amasa",
+      "Abisai",
+      "Urias"
+    ]
+  },
+  {
+    "id": 170,
+    "category": "AT",
+    "question": "Qual profeta repreendeu o rei Acabe por tomar a vinha de Nabote?",
+    "correct": "Elias",
+    "reference": "1 Reis 21:17–24",
+    "explanation": "Elias anunciou o juízo de Deus contra Acabe por causa da morte de Nabote.",
+    "options": [
+      "Elias",
+      "Eliseu",
+      "Micaías",
+      "Natã"
+    ]
+  },
+  {
+    "id": 171,
+    "category": "NT",
+    "question": "Qual era o nome do homem que ajudou José de Arimateia a preparar o corpo de Jesus para o sepultamento?",
+    "correct": "Nicodemos",
+    "reference": "João 19:38–40",
+    "explanation": "Nicodemos levou uma mistura de mirra e aloés para o sepultamento.",
+    "options": [
+      "Nicodemos",
+      "Gamaliel",
+      "Jairo",
+      "Zaqueu"
+    ]
+  },
+  {
+    "id": 172,
+    "category": "NT",
+    "question": "Qual apóstolo foi morto à espada por ordem de Herodes Agripa?",
+    "correct": "Tiago, filho de Zebedeu",
+    "reference": "Atos 12:1–2",
+    "explanation": "Herodes mandou matar Tiago, irmão de João, à espada.",
+    "options": [
+      "Tiago, filho de Zebedeu",
+      "Pedro",
+      "André",
+      "Filipe"
+    ]
+  },
+  {
+    "id": 173,
+    "category": "NT",
+    "question": "Quem foi o primeiro companheiro de Paulo mencionado na viagem missionária de Atos 13?",
+    "correct": "Barnabé",
+    "reference": "Atos 13:1–4",
+    "explanation": "A igreja de Antioquia separou Barnabé e Saulo para a obra missionária.",
+    "options": [
+      "Barnabé",
+      "Silas",
+      "Timóteo",
+      "Tito"
+    ]
+  },
+  {
+    "id": 174,
+    "category": "NT",
+    "question": "Qual era o nome do homem que caiu aos pés de Jesus pedindo que sua filha fosse curada?",
+    "correct": "Jairo",
+    "reference": "Marcos 5:22–23",
+    "explanation": "Jairo, dirigente da sinagoga, pediu ajuda para sua filha.",
+    "options": [
+      "Jairo",
+      "Bartimeu",
+      "Malco",
+      "Êutico"
+    ]
+  },
+  {
+    "id": 175,
+    "category": "NT",
+    "question": "Qual mulher foi ressuscitada por Pedro em Jope?",
+    "correct": "Tabita",
+    "reference": "Atos 9:36–41",
+    "explanation": "Pedro orou e chamou Tabita, também conhecida como Dorcas, de volta à vida.",
+    "options": [
+      "Tabita",
+      "Lídia",
+      "Priscila",
+      "Eunice"
+    ]
+  },
+  {
+    "id": 176,
+    "category": "NT",
+    "question": "Qual governador romano ouviu Paulo e ficou amedrontado quando ele falou sobre justiça, domínio próprio e juízo?",
+    "correct": "Félix",
+    "reference": "Atos 24:24–25",
+    "explanation": "Félix ficou alarmado ao ouvir Paulo falar sobre esses temas.",
+    "options": [
+      "Félix",
+      "Festo",
+      "Gálio",
+      "Pilatos"
+    ]
+  },
+  {
+    "id": 177,
+    "category": "NT",
+    "question": "Quem foi o jovem discípulo cuja mãe era judia cristã e cujo pai era grego?",
+    "correct": "Timóteo",
+    "reference": "Atos 16:1",
+    "explanation": "Timóteo era filho de uma mulher judia cristã e de pai grego.",
+    "options": [
+      "Timóteo",
+      "Tito",
+      "João Marcos",
+      "Apolo"
+    ]
+  },
+  {
+    "id": 178,
+    "category": "NT",
+    "question": "Em qual cidade Paulo chegou após receber a visão do homem da Macedônia?",
+    "correct": "Trôade",
+    "reference": "Atos 16:8–10",
+    "explanation": "Paulo estava em Trôade quando recebeu a visão que o chamou à Macedônia.",
+    "options": [
+      "Trôade",
+      "Éfeso",
+      "Antioquia",
+      "Tarso"
+    ]
+  },
+  {
+    "id": 179,
+    "category": "NT",
+    "question": "Qual apóstolo escreveu que a fé sem obras é morta?",
+    "correct": "Tiago",
+    "reference": "Tiago 2:14–26",
+    "explanation": "A carta de Tiago ensina que a fé verdadeira se manifesta em ações.",
+    "options": [
+      "Tiago",
+      "Pedro",
+      "João",
+      "Paulo"
+    ]
+  },
+  {
+    "id": 180,
+    "category": "NT",
+    "question": "Quem foi o homem que ajudou a sepultar Jesus e era membro do conselho?",
+    "correct": "José de Arimateia",
+    "reference": "Lucas 23:50–53",
+    "explanation": "José de Arimateia pediu o corpo de Jesus e o colocou em um túmulo.",
+    "options": [
+      "José de Arimateia",
+      "Nicodemos",
+      "Gamaliel",
+      "Zaqueu"
+    ]
+  },
+  {
+    "id": 181,
+    "category": "PERS",
+    "question": "Qual era o nome da esposa de Arão?",
+    "correct": "Eliseba",
+    "reference": "Êxodo 6:23",
+    "explanation": "Arão casou-se com Eliseba, filha de Aminadabe.",
+    "options": [
+      "Eliseba",
+      "Zípora",
+      "Miriã",
+      "Abigail"
+    ]
+  },
+  {
+    "id": 182,
+    "category": "PERS",
+    "question": "Qual era o nome da esposa de Oseias?",
+    "correct": "Gômer",
+    "reference": "Oseias 1:3",
+    "explanation": "Oseias tomou Gômer como esposa conforme a orientação recebida.",
+    "options": [
+      "Gômer",
+      "Débora",
+      "Hulda",
+      "Mical"
+    ]
+  },
+  {
+    "id": 183,
+    "category": "PERS",
+    "question": "Qual era o nome do pai de Josué, filho de Num?",
+    "correct": "Num",
+    "reference": "Números 13:16",
+    "explanation": "Josué é identificado nas Escrituras como filho de Num.",
+    "options": [
+      "Num",
+      "Calebe",
+      "Eleazar",
+      "Fineias"
+    ]
+  },
+  {
+    "id": 184,
+    "category": "PERS",
+    "question": "Quem era o pai do rei Ezequias?",
+    "correct": "Acaz",
+    "reference": "2 Reis 16:20; 18:1",
+    "explanation": "Ezequias era filho de Acaz e começou a reinar em Judá.",
+    "options": [
+      "Acaz",
+      "Uzias",
+      "Jotão",
+      "Manassés"
+    ]
+  },
+  {
+    "id": 185,
+    "category": "PERS",
+    "question": "Qual era o nome do pai de Mefibosete?",
+    "correct": "Jônatas",
+    "reference": "2 Samuel 4:4; 9:6",
+    "explanation": "Mefibosete era filho de Jônatas e neto de Saul.",
+    "options": [
+      "Jônatas",
+      "Saul",
+      "Davi",
+      "Isbosete"
+    ]
+  },
+  {
+    "id": 186,
+    "category": "PERS",
+    "question": "Qual era o nome da irmã de Lázaro e Marta que ungiu Jesus com perfume?",
+    "correct": "Maria",
+    "reference": "João 12:1–3",
+    "explanation": "Maria ungiu os pés de Jesus com perfume e os enxugou com os cabelos.",
+    "options": [
+      "Maria",
+      "Salomé",
+      "Joana",
+      "Susana"
+    ]
+  },
+  {
+    "id": 187,
+    "category": "PERS",
+    "question": "Qual era o nome da mãe de Moisés?",
+    "correct": "Joquebede",
+    "reference": "Êxodo 6:20",
+    "explanation": "Joquebede era mãe de Moisés, Arão e Miriã.",
+    "options": [
+      "Joquebede",
+      "Miriã",
+      "Zípora",
+      "Eliseba"
+    ]
+  },
+  {
+    "id": 188,
+    "category": "PERS",
+    "question": "Qual era o nome do pai de Gideão?",
+    "correct": "Joás",
+    "reference": "Juízes 6:11",
+    "explanation": "Gideão era filho de Joás, da família de Abiezer.",
+    "options": [
+      "Joás",
+      "Abner",
+      "Quis",
+      "Elcana"
+    ]
+  },
+  {
+    "id": 189,
+    "category": "PERS",
+    "question": "Qual era o nome do pai de Samuel?",
+    "correct": "Elcana",
+    "reference": "1 Samuel 1:1–2",
+    "explanation": "Elcana era marido de Ana e pai de Samuel.",
+    "options": [
+      "Elcana",
+      "Eli",
+      "Abner",
+      "Boaz"
+    ]
+  },
+  {
+    "id": 190,
+    "category": "PERS",
+    "question": "Quem era o pai de Isbosete, que reinou sobre Israel após a morte de Saul?",
+    "correct": "Saul",
+    "reference": "2 Samuel 2:8–10",
+    "explanation": "Isbosete era filho de Saul e foi constituído rei sobre parte de Israel.",
+    "options": [
+      "Saul",
+      "Jônatas",
+      "Davi",
+      "Abner"
+    ]
+  },
+  {
+    "id": 191,
+    "category": "HIST",
+    "question": "O que aconteceu com a vara de Arão quando foi colocada diante do testemunho?",
+    "correct": "Floresceu e produziu amêndoas",
+    "reference": "Números 17:8",
+    "explanation": "A vara de Arão brotou, floresceu e produziu amêndoas como sinal de sua escolha.",
+    "options": [
+      "Floresceu e produziu amêndoas",
+      "Transformou-se em serpente",
+      "Quebrou-se em duas partes",
+      "Pegou fogo"
+    ]
+  },
+  {
+    "id": 192,
+    "category": "HIST",
+    "question": "Qual foi o sinal dado a Ezequias de que Deus cumpriria a promessa de acrescentar anos à sua vida?",
+    "correct": "A sombra voltou dez graus",
+    "reference": "2 Reis 20:8–11",
+    "explanation": "A sombra no relógio de Acaz retrocedeu dez graus como sinal para Ezequias.",
+    "options": [
+      "A sombra voltou dez graus",
+      "O sol parou por um dia",
+      "Choveu sobre Jerusalém",
+      "Uma estrela apareceu"
+    ]
+  },
+  {
+    "id": 193,
+    "category": "HIST",
+    "question": "O que aconteceu com o altar de Elias no monte Carmelo quando Deus respondeu com fogo?",
+    "correct": "O fogo consumiu a oferta, a lenha e a água",
+    "reference": "1 Reis 18:33–38",
+    "explanation": "O fogo do Senhor consumiu a oferta, a lenha, as pedras e a água na valeta.",
+    "options": [
+      "O fogo consumiu a oferta, a lenha e a água",
+      "O altar se transformou em ouro",
+      "A chuva começou imediatamente",
+      "As pedras desapareceram"
+    ]
+  },
+  {
+    "id": 194,
+    "category": "HIST",
+    "question": "Qual era o nome do lugar onde Jacó lutou durante a noite e recebeu um novo nome?",
+    "correct": "Peniel",
+    "reference": "Gênesis 32:24–30",
+    "explanation": "Jacó chamou o lugar de Peniel após lutar e dizer que vira Deus face a face.",
+    "options": [
+      "Peniel",
+      "Betel",
+      "Gilgal",
+      "Hebrom"
+    ]
+  },
+  {
+    "id": 195,
+    "category": "HIST",
+    "question": "O que aconteceu quando Eliseu lançou farinha na panela com o ensopado envenenado?",
+    "correct": "O alimento ficou próprio para comer",
+    "reference": "2 Reis 4:38–41",
+    "explanation": "Eliseu lançou farinha na panela e o veneno deixou de causar dano.",
+    "options": [
+      "O alimento ficou próprio para comer",
+      "A panela se quebrou",
+      "A comida virou pão",
+      "O fogo se apagou"
+    ]
+  },
+  {
+    "id": 196,
+    "category": "HIST",
+    "question": "Qual foi o destino de Filipe depois de batizar o eunuco etíope?",
+    "correct": "Foi levado pelo Espírito para Azoto",
+    "reference": "Atos 8:39–40",
+    "explanation": "O Espírito do Senhor arrebatou Filipe, que foi encontrado depois em Azoto.",
+    "options": [
+      "Foi levado pelo Espírito para Azoto",
+      "Retornou imediatamente a Jerusalém",
+      "Seguiu com o eunuco até a Etiópia",
+      "Foi preso em Gaza"
+    ]
+  },
+  {
+    "id": 197,
+    "category": "HIST",
+    "question": "Qual foi a praga que atingiu os primogênitos do Egito?",
+    "correct": "A morte dos primogênitos",
+    "reference": "Êxodo 12:29–30",
+    "explanation": "A décima praga atingiu os primogênitos do Egito.",
+    "options": [
+      "A morte dos primogênitos",
+      "A escuridão",
+      "As rãs",
+      "A saraiva"
+    ]
+  },
+  {
+    "id": 198,
+    "category": "HIST",
+    "question": "Qual foi o nome do lugar onde Jesus curou o cego que lavou os olhos?",
+    "correct": "Tanque de Siloé",
+    "reference": "João 9:6–7",
+    "explanation": "Jesus mandou o homem lavar-se no tanque de Siloé, e ele voltou vendo.",
+    "options": [
+      "Tanque de Siloé",
+      "Tanque de Betesda",
+      "Rio Jordão",
+      "Mar da Galileia"
+    ]
+  },
+  {
+    "id": 199,
+    "category": "HIST",
+    "question": "O que aconteceu com Pedro quando começou a afundar enquanto caminhava sobre o mar?",
+    "correct": "Jesus o segurou pela mão",
+    "reference": "Mateus 14:28–31",
+    "explanation": "Jesus estendeu a mão e segurou Pedro quando ele começou a afundar.",
+    "options": [
+      "Jesus o segurou pela mão",
+      "André o puxou para o barco",
+      "O mar ficou imediatamente seco",
+      "Ele nadou até a praia"
+    ]
+  },
+  {
+    "id": 200,
+    "category": "HIST",
+    "question": "Qual era o nome do lugar onde Paulo e Silas estavam presos em Filipos?",
+    "correct": "Cárcere interior",
+    "reference": "Atos 16:23–24",
+    "explanation": "O carcereiro os colocou na parte mais interna da prisão e prendeu seus pés no tronco.",
+    "options": [
+      "Cárcere interior",
+      "Palácio do governador",
+      "Sinagoga",
+      "Casa de Lídia"
+    ]
   }
 ];
