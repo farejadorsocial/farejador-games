@@ -1,0 +1,38 @@
+DESAFIO BÍBLICO — VERSÃO CRAZYGAMES
+
+VERSÃO BILÍNGUE IMPLEMENTADA
+- Idioma inicial: inglês.
+- Idioma alternativo: português (seletor EN / PT no cabeçalho).
+- Interface localizada: menus, categorias, instruções, indicadores, feedback, recordes e conquistas.
+- Banco de perguntas localizado: 200 traduções em inglês, incluindo enunciados, respostas corretas, quatro alternativas e explicações.
+- Referências bíblicas permanecem equivalentes e os nomes dos livros são apresentados em inglês no idioma EN.
+- Os textos originais em português foram preservados no arquivo questions.js.
+- IDs, categorias e conteúdo original não foram alterados.
+
+BANCO VALIDADO
+- Total: 200 perguntas.
+- Antigo Testamento (AT): 50.
+- Novo Testamento (NT): 50.
+- Personagens Bíblicos (PERS): 50.
+- Histórias Bíblicas (HIST): 50.
+- 200 IDs únicos e 200 traduções inglesas correspondentes.
+
+INTEGRAÇÃO CRAZYGAMES
+- SDK HTML5 v3.
+- Sem anúncios de terceiros.
+- Eventos gameplayStart / gameplayStop e anúncios midgame integrados.
+
+ANTES DO ENVIO
+- Testar localmente em navegador desktop e mobile.
+- Conferir alternância EN/PT em todas as telas e durante o fluxo de partida.
+- Testar anúncios e ciclo de gameplay no CrazyGames QA Preview.
+- A integração de código e a tradução do banco foram verificadas estaticamente; isso não substitui o teste visual no navegador nem a aprovação da CrazyGames.
+
+ARQUIVOS PRINCIPAIS
+- index.html
+- css/style.css
+- js/game.js
+- js/questions.js (fonte portuguesa, preservada)
+- js/questions_en.js (traduções inglesas)
+- js/i18n.js (interface EN/PT)
+- js/crazygames.js
