@@ -1,23 +1,38 @@
 DESAFIO BÍBLICO — VERSÃO CRAZYGAMES
 
-Esta pasta é uma cópia independente da versão GameMonetize.
-- Integração inicial com CrazyGames HTML5 SDK v3.
-- Integração GameMonetize removida.
-- Banco original das 200 perguntas preservado.
-- Cronômetro e áudio pausam durante anúncios.
-- Eventos gameplayStart/gameplayStop incluídos.
+VERSÃO BILÍNGUE IMPLEMENTADA
+- Idioma inicial: inglês.
+- Idioma alternativo: português (seletor EN / PT no cabeçalho).
+- Interface localizada: menus, categorias, instruções, indicadores, feedback, recordes e conquistas.
+- Banco de perguntas localizado: 200 traduções em inglês, incluindo enunciados, respostas corretas, quatro alternativas e explicações.
+- Referências bíblicas permanecem equivalentes e os nomes dos livros são apresentados em inglês no idioma EN.
+- Os textos originais em português foram preservados no arquivo questions.js.
+- IDs, categorias e conteúdo original não foram alterados.
 
-PRÓXIMAS ETAPAS ANTES DO ENVIO:
-1. Finalizar localização completa em inglês e português (interface + 200 perguntas).
-2. Testar em localhost/127.0.0.1 e no Preview da CrazyGames.
-3. Validar SDK e requisitos da plataforma.
+BANCO VALIDADO
+- Total: 200 perguntas.
+- Antigo Testamento (AT): 50.
+- Novo Testamento (NT): 50.
+- Personagens Bíblicos (PERS): 50.
+- Histórias Bíblicas (HIST): 50.
+- 200 IDs únicos e 200 traduções inglesas correspondentes.
 
-Não usar anúncios de terceiros nesta versão.
+INTEGRAÇÃO CRAZYGAMES
+- SDK HTML5 v3.
+- Sem anúncios de terceiros.
+- Eventos gameplayStart / gameplayStop e anúncios midgame integrados.
 
+ANTES DO ENVIO
+- Testar localmente em navegador desktop e mobile.
+- Conferir alternância EN/PT em todas as telas e durante o fluxo de partida.
+- Testar anúncios e ciclo de gameplay no CrazyGames QA Preview.
+- A integração de código e a tradução do banco foram verificadas estaticamente; isso não substitui o teste visual no navegador nem a aprovação da CrazyGames.
 
-LOCALIZAÇÃO BILÍNGUE — ANDAMENTO
-- Seletor EN/PT implementado; inglês é o idioma inicial.
-- Dicionários de interface adicionados para inglês e português.
-- Textos dinâmicos de partida, feedback e conquistas conectados ao idioma.
-- O banco de 200 perguntas continua preservado e ainda precisa receber os campos traduzidos para inglês (perguntas, alternativas e explicações).
-- Não considerar a localização completa nem enviar para avaliação antes de concluir a tradução do banco e testar todas as telas.
+ARQUIVOS PRINCIPAIS
+- index.html
+- css/style.css
+- js/game.js
+- js/questions.js (fonte portuguesa, preservada)
+- js/questions_en.js (traduções inglesas)
+- js/i18n.js (interface EN/PT)
+- js/crazygames.js
