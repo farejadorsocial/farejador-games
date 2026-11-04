@@ -18,7 +18,10 @@ labels.forEach(([selector,key])=>{
 });
 document.querySelectorAll(".lang-option").forEach(e=>e.classList.toggle("active",e.id==="lang-"+lang));
 }
-function setLanguage(v){if(!D[v])return;lang=v;try{localStorage.setItem("dbLanguage",lang)}catch(e){}apply();window.dispatchEvent(new CustomEvent("languagechange",{detail:{language:lang}}))}
+function setLanguage(v){if(!D[v])return;
+const gameScreen=document.getElementById("game");
+if(gameScreen&&gameScreen.classList.contains("active")){alert(lang==="en"?"Please change the language after returning to the menu.":"Altere o idioma depois de voltar ao menu.");return;}
+lang=v;try{localStorage.setItem("dbLanguage",lang)}catch(e){}apply();window.dispatchEvent(new CustomEvent("languagechange",{detail:{language:lang}}))}
 window.GameI18n={t,get language(){return lang},setLanguage};
 document.addEventListener("DOMContentLoaded",()=>{document.getElementById("lang-en")?.addEventListener("click",()=>setLanguage("en"));document.getElementById("lang-pt")?.addEventListener("click",()=>setLanguage("pt"));apply()});
 })();
