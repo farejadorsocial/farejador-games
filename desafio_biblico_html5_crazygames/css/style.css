@@ -25,3 +25,8 @@
 .achievement>strong{font:600 7px Cinzel;color:var(--gold);text-align:right;max-width:74px}
 .achievement-track{height:3px;background:#ffffff18;margin-top:8px;border-radius:4px;overflow:hidden}
 .achievement-track i{display:block;height:100%;background:linear-gradient(90deg,#a87936,#f1d99e)}
+
+/* Language selector */
+.language-switch{display:flex;align-items:center;gap:4px;margin-left:auto;margin-right:8px}
+.language-switch .lang-option{min-width:34px;padding:7px 8px;border:1px solid rgba(213,174,91,.35);border-radius:7px;background:transparent;color:#d8c9ad;font-size:11px;font-weight:700;cursor:pointer}
+.language-switch .lang-option.active{background:#c49a4a;color:#1b120b;border-color:#c49a4a}
