@@ -1,2 +1,0 @@
-# farejador-games
-games web
