@@ -1,7 +1,8 @@
 (()=>{
 const $=id=>document.getElementById(id);
 const screens=['home','categories','game','over','result','info','recordsScreen','achievementsScreen'];
-const tr=(key)=>window.GameI18n?window.GameI18n.t(key):key;\nlet crazyReady=()=>!!(window.CrazyGamesReady&&window.CrazyGames&&window.CrazyGames.SDK),cat='ALL',list=[],idx=0,score=0,lives=3,correct=0,wrong=0,time=30,clock=null,locked=false,audio=null,music=null,sound=true,deadline=0,remaining=30,adPaused=false;
+const tr=(key)=>window.GameI18n?window.GameI18n.t(key):key;
+let crazyReady=()=>!!(window.CrazyGamesReady&&window.CrazyGames&&window.CrazyGames.SDK),cat='ALL',list=[],idx=0,score=0,lives=3,correct=0,wrong=0,time=30,clock=null,locked=false,audio=null,music=null,sound=true,deadline=0,remaining=30,adPaused=false;
 const names={AT:'at',NT:'nt',PERS:'pers',HIST:'hist',ALL:'all'};
 function show(s){screens.forEach(x=>$(x).classList.toggle('active',x===s));window.scrollTo(0,0)}
 function store(){try{return JSON.parse(localStorage.getItem('dbStats')||'{"best":0,"games":0,"correct":0,"answered":0}')}catch(e){return {best:0,games:0,correct:0,answered:0}}}
@@ -73,5 +74,6 @@ $('again').onclick=()=>show('categories');
 $('retry').onclick=()=>start(cat);
 $('clear').onclick=()=>{if(confirm(tr('askClear'))){localStorage.removeItem('dbStats');records()}};
 $('sound').onclick=$('sound2').onclick=()=>{sound=!sound;document.querySelectorAll('#sound,#sound2').forEach(b=>b.textContent=sound?'♫':'♪');if(sound)audioStart();else clearInterval(music)};
-window.addEventListener('languagechange',()=>{if($('achievementsScreen').classList.contains('active'))achievements();if($('recordsScreen').classList.contains('active'))records();if($('game').classList.contains('active')){$('catlabel').textContent=tr(names[cat]||'all');const counter=$('questionCounter');if(counter)counter.textContent=tr('question')+' '+(idx+1)+' '+tr('of')+' '+list.length;}});\ndocument.addEventListener('visibilitychange',()=>{if(document.hidden){clearInterval(music);if(clock){remaining=Math.max(0,Math.ceil((deadline-Date.now())/1000));clearInterval(clock);clock=null}}else if($('game').classList.contains('active')&&!locked&&!adPaused){deadline=Date.now()+remaining*1000;clock=setInterval(updateClock,200);audioStart()}});
+window.addEventListener('languagechange',()=>{if($('achievementsScreen').classList.contains('active'))achievements();if($('recordsScreen').classList.contains('active'))records();if($('game').classList.contains('active')){$('catlabel').textContent=tr(names[cat]||'all');const counter=$('questionCounter');if(counter)counter.textContent=tr('question')+' '+(idx+1)+' '+tr('of')+' '+list.length;}});
+document.addEventListener('visibilitychange',()=>{if(document.hidden){clearInterval(music);if(clock){remaining=Math.max(0,Math.ceil((deadline-Date.now())/1000));clearInterval(clock);clock=null}}else if($('game').classList.contains('active')&&!locked&&!adPaused){deadline=Date.now()+remaining*1000;clock=setInterval(updateClock,200);audioStart()}});
 })();
