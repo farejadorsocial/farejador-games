@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fbf8f2">
+<meta name="description" content="Farejador Games: quizzes gratuitos de Bíblia, futebol, geografia e conhecimentos gerais para jogar no computador e no celular.">
+<title>Farejador Games — Central de Quizzes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html" aria-label="Farejador Games, início">
+    <span class="mono">FG</span>
+    <span class="brand-text">Farejador Games<small>Central de quizzes</small></span>
+  </a>
+  <nav aria-label="Principal"><a href="#jogos">Quizzes</a><a href="#como">Como funciona</a><a href="#sobre">Sobre</a></nav>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">Quizzes grátis • Computador e celular</span>
+    <h1>Jogue, aprenda e <em>desafie-se</em> todos os dias.</h1>
+    <p>Uma coleção de quizzes feitos com carinho: Bíblia, futebol, geografia e conhecimentos gerais. Sem cadastro, é só escolher e jogar.</p>
+    <div class="cta"><a class="btn primary" href="#jogos">Ver os quizzes</a><a class="btn ghost" href="#como">Como funciona</a></div>
+    <dl class="stats"><div><dt id="statGames">4</dt><dd>quizzes</dd></div><div><dt>470+</dt><dd>perguntas</dd></div><div><dt>123</dt><dd>países</dd></div><div><dt>100%</dt><dd>grátis</dd></div></dl>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="fan f1"><span>🌍</span><b>Bandeiras<br>e Capitais</b></div>
+    <div class="fan f2"><span>📖</span><b>Desafio<br>Bíblico</b></div>
+    <div class="fan f3"><span>💰</span><b>Quiz do<br>Milhão</b></div>
+    <div class="fan f4"><span>⚽</span><b>Futebol<br>Brasileiro</b></div>
+  </div>
+</section>
+
+<section class="section" id="jogos">
+  <div class="section-head"><div><span class="eyebrow">Escolha seu desafio</span><h2>Quizzes disponíveis</h2></div><span class="game-count" id="gameCount" aria-live="polite">4 jogos</span></div>
+  <div class="filters">
+    <label class="search"><span class="sr">Buscar quiz</span><input id="search" type="search" placeholder="Buscar quiz…" autocomplete="off"></label>
+    <div class="chips" role="group" aria-label="Filtrar por tema">
+      <button class="chip active" data-filter="Todos">Todos</button>
+      <button class="chip" data-filter="Geografia">Geografia</button>
+      <button class="chip" data-filter="Bíblia">Bíblia</button>
+      <button class="chip" data-filter="Conhecimentos">Conhecimentos</button>
+      <button class="chip" data-filter="Esportes">Esportes</button>
+    </div>
+  </div>
+  <div class="game-grid" id="gameGrid"></div>
+</section>
+
+<section class="section how" id="como">
+  <div class="section-head"><div><span class="eyebrow">Simples assim</span><h2>Como funciona</h2></div></div>
+  <ol class="steps">
+    <li><span class="n">1</span><h3>Escolha um quiz</h3><p>Cada jogo tem seu próprio tema, regras e visual. Escolha o que combina com você.</p></li>
+    <li><span class="n">2</span><h3>Responda e aprenda</h3><p>Todas as respostas vêm com explicação. Use ajudas como 50/50 e Pular nos momentos difíceis.</p></li>
+    <li><span class="n">3</span><h3>Evolua todo dia</h3><p>Faça o Desafio do Dia, ganhe conquistas e supere seus recordes. Tudo fica salvo no seu aparelho.</p></li>
+  </ol>
+</section>
+
+<!-- Espaço reservado para anúncios: remova o atributo hidden quando for usar. -->
+<section class="ad-slot" aria-label="Publicidade" hidden><span>Publicidade</span></section>
+
+<section class="about" id="sobre">
+  <div><span class="eyebrow">Sobre o portal</span><h2>Uma central, <em>vários desafios.</em></h2></div>
+  <p>O Farejador Games reúne quizzes para você jogar quando quiser, no computador ou no celular. Cada jogo tem seu próprio tema, suas perguntas e seu visual. É só escolher, jogar e tentar bater seu recorde.</p>
+</section>
+</main>
+<footer><a class="brand small" href="#"><span class="mono">FG</span><span class="brand-text">Farejador Games</span></a><span>© 2026 Farejador Games • Feito para jogar</span></footer>
+<script src="js/app.js"></script>
+</body>
+</html>
