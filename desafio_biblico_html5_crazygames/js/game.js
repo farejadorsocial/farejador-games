@@ -61,7 +61,7 @@ $('achievements').onclick=()=>{achievements();show('achievementsScreen')};
 $('openAchievements').onclick=()=>{achievements();show('achievementsScreen')};
 document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>start(b.dataset.cat));
 document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>{clearInterval(clock);if(crazyReady()){try{window.CrazyGames.SDK.game.gameplayStop()}catch(e){}}show('home');audioStart()});
-$('quit').onclick=()=>{if(confirm('Sair desta partida? Seu progresso desta rodada não será salvo.')){clearInterval(clock);show('categories')}};
+$('quit').onclick=()=>{if(confirm('Sair desta partida? Seu progresso desta rodada não será salvo.')){clearInterval(clock);if(crazyReady()){try{window.CrazyGames.SDK.game.gameplayStop()}catch(e){}}show('categories')}};
 $('again').onclick=()=>show('categories');
 $('retry').onclick=()=>start(cat);
 $('clear').onclick=()=>{if(confirm('Apagar os recordes deste dispositivo?')){localStorage.removeItem('dbStats');records()}};
