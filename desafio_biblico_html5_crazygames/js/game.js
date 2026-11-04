@@ -36,8 +36,6 @@ function resumeFromAd(){
  }
  audioStart();
 }
-window.GameMonetizePause=pauseForAd;
-window.GameMonetizeResume=resumeFromAd;
 function requestAd(){
  if(!crazyReady())return;
  try{
