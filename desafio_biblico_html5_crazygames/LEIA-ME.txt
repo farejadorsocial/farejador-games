@@ -13,3 +13,11 @@ PRÓXIMAS ETAPAS ANTES DO ENVIO:
 3. Validar SDK e requisitos da plataforma.
 
 Não usar anúncios de terceiros nesta versão.
+
+
+LOCALIZAÇÃO BILÍNGUE — ANDAMENTO
+- Seletor EN/PT implementado; inglês é o idioma inicial.
+- Dicionários de interface adicionados para inglês e português.
+- Textos dinâmicos de partida, feedback e conquistas conectados ao idioma.
+- O banco de 200 perguntas continua preservado e ainda precisa receber os campos traduzidos para inglês (perguntas, alternativas e explicações).
+- Não considerar a localização completa nem enviar para avaliação antes de concluir a tradução do banco e testar todas as telas.
