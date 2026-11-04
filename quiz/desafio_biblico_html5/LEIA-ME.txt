@@ -1,0 +1,23 @@
+DESAFIO BÍBLICO — HTML5
+Versão inicial jogável • 40 perguntas
+
+TESTAR:
+1. Extraia o ZIP.
+2. Abra index.html no navegador.
+3. Para publicar, envie a pasta mantendo css/ e js/ para uma hospedagem compatível com HTML5.
+
+INCLUI:
+- Layout responsivo com visual de Bíblia/capa de couro e páginas de pergaminho.
+- Quatro categorias e Jornada Completa.
+- 40 perguntas iniciais com alternativas, explicações e referências.
+- 10 perguntas por partida, alternativas embaralhadas, 3 vidas, 30 segundos e +10 pontos por acerto.
+- Recordes locais no navegador.
+- Trilha instrumental sintetizada em tempo real pelo Web Audio API, sem arquivos de áudio externos.
+- Código organizado em HTML, CSS e JavaScript.
+
+IMPORTANTE:
+- A recuperação por vídeo no Game Over ainda é apenas um ponto de integração; nenhum anúncio é exibido nesta versão.
+- A integração AdMob deve ser feita depois usando SDK e fluxo oficiais da plataforma onde o jogo for publicado.
+- O armazenamento de recordes é local ao navegador/dispositivo.
+- A fonte decorativa usa Google Fonts quando há internet; o jogo continua funcionando sem essa fonte.
+- O ZIP HTML5 não é um projeto GDevelop. gd.games pode exigir publicação pelo próprio GDevelop; use plataformas que aceitem pacote HTML5 ou hospedagem web.
