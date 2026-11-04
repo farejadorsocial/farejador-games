@@ -1,5 +1,5 @@
 /* English question translations. Keys match the immutable Portuguese question IDs. */
-const QUESTION_TRANSLATIONS_EN={
+window.QUESTION_TRANSLATIONS_EN={
 1:["Who built the ark?","Noah",["Noah","Moses","Abraham","David"],"Noah built the ark according to God's instructions."],
 2:["Who received the Ten Commandments?","Moses",["Moses","Joshua","Aaron","Samuel"],"Moses received the commandments on Mount Sinai."],
 3:["Who defeated Goliath?","David",["David","Saul","Jonathan","Solomon"],"David faced Goliath with a sling and a stone."],
