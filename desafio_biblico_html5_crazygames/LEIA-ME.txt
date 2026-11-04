@@ -1,0 +1,15 @@
+DESAFIO BÍBLICO — VERSÃO CRAZYGAMES
+
+Esta pasta é uma cópia independente da versão GameMonetize.
+- Integração inicial com CrazyGames HTML5 SDK v3.
+- Integração GameMonetize removida.
+- Banco original das 200 perguntas preservado.
+- Cronômetro e áudio pausam durante anúncios.
+- Eventos gameplayStart/gameplayStop incluídos.
+
+PRÓXIMAS ETAPAS ANTES DO ENVIO:
+1. Finalizar localização completa em inglês e português (interface + 200 perguntas).
+2. Testar em localhost/127.0.0.1 e no Preview da CrazyGames.
+3. Validar SDK e requisitos da plataforma.
+
+Não usar anúncios de terceiros nesta versão.
