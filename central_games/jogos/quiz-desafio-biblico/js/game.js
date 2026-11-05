@@ -92,6 +92,10 @@ document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>{home();dailyL
 $('quit').onclick=()=>{ask('Sair desta partida? Seu progresso desta rodada não será salvo.',()=>{clearInterval(clock);clock=null;show('categories')})};
 $('again').onclick=()=>show('categories');
 $('retry').onclick=()=>start(cat);
+const ADSTERRA_SMARTLINK='https://auctionr.org/4/7669f7c86faa805ec9a45526502b76ff';
+document.querySelectorAll('#retry, #over [data-home], #result [data-home]').forEach(button=>{
+button.addEventListener('click',()=>{window.open(ADSTERRA_SMARTLINK,'_blank','noopener,noreferrer')});
+});
 $('clear').onclick=()=>ask('Apagar os recordes deste dispositivo?',()=>{try{localStorage.removeItem('dbStats')}catch(e){}records();dailyLabel()});
 $('shareBtn').onclick=share;$('shareBtn2').onclick=share;
 $('help50').onclick=useFifty;$('helpSkip').onclick=useSkip;$('helpTime').onclick=useTime;
