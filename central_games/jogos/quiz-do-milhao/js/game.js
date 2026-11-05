@@ -120,6 +120,13 @@ const k='abcd'.indexOf(e.key.toLowerCase());
 if(!locked&&!done&&(k>-1||/^[1-4]$/.test(e.key))){choose(k>-1?k:+e.key-1)}
 else if(e.key==='Enter'){const n=$('next');if(n&&document.activeElement!==n){e.preventDefault();n.click()}else if(!n&&!locked&&sel>-1&&document.activeElement!==$('confirm')){e.preventDefault();confirmAnswer()}}});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)audioStop();else if(sound)audioStart()});
+
+/* Smartlink Adsterra nas ações da tela de resultado */
+const ADSTERRA_SMARTLINK='https://auctionr.org/4/7669f7c86faa805ec9a45526502b76ff';
+document.querySelectorAll('#end #again, #end [data-home], #end .hubbtn').forEach(button=>{
+  button.addEventListener('click',()=>window.open(ADSTERRA_SMARTLINK,'_blank','noopener,noreferrer'));
+});
+
 dailyLabel();
 if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('sw.js').catch(()=>{});
 })();
