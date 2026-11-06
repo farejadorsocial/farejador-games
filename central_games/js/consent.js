@@ -31,6 +31,15 @@
     var id = C.analyticsId;
     if (!id) return;
 
+    // Sem consentimento, não inicia a tag. Se a pessoa revogar depois de aceitar,
+    // envia a atualização para interromper o armazenamento de Analytics.
+    if (get() !== "granted") {
+      if (window.__fgAnalyticsLoaded && window.gtag) {
+        window.gtag("consent", "update", { analytics_storage: "denied" });
+      }
+      return;
+    }
+
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
 
@@ -68,8 +77,8 @@
     var root = box.attachShadow ? box.attachShadow({ mode: "open" }) : box;
     root.innerHTML = "<style>" + bannerCss + "</style>" +
       "<div class=\"fg-cookie\" role=\"dialog\" aria-label=\"Aviso de cookies\">" +
-      "<p>Usamos armazenamento no seu aparelho para salvar seus recordes e, quando a publicidade estiver ativa, cookies do Google e de parceiros para exibir anúncios. " +
-      "Ao aceitar, os anúncios podem ser personalizados; ao recusar, serão não personalizados. " +
+      "<p>Usamos armazenamento no seu aparelho para salvar seus recordes. Com sua autorização, o Google Analytics mede as páginas visitadas e o uso do site. " +
+      "Se a publicidade estiver ativa, o Google e seus parceiros também poderão usar cookies para anúncios. Ao recusar, o Analytics não será ativado e os anúncios serão não personalizados. " +
       "Saiba mais na <a href=\"" + base + "privacidade.html\">Política de Privacidade</a>.</p>" +
       "<div class=\"b\"><button type=\"button\" class=\"no\">Recusar</button><button type=\"button\" class=\"ok\">Aceitar</button></div></div>";
     root.querySelector(".ok").addEventListener("click", function () { choose("granted"); });
