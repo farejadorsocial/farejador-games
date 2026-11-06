@@ -1,0 +1,2 @@
+# Preencha com o seu ID de editor do AdSense (o PERSONALIZAR.py faz isso).
+# Formato: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://farejadorsocial.github.io/farejador-games/central_games/sitemap.xml

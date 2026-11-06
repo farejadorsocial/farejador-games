@@ -1,0 +1,55 @@
+/* Aviso de cookies do Farejador Games.
+   - Mostra o aviso na primeira visita e guarda a escolha em localStorage ("granted" ou "denied").
+   - Qualquer link com o atributo data-fg-cookies reabre o aviso (Preferências de cookies).
+   - Os anúncios (js/ads.js) só carregam depois que a pessoa escolhe. */
+(function () {
+  var KEY = "fg_consent_v1";
+  var script = document.currentScript;
+  var base = script && script.src ? script.src.replace(/js\/consent\.js.*$/, "") : "";
+  var listeners = [];
+
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function fire() { listeners.forEach(function (f) { try { f(get()); } catch (e) {} }); }
+
+  var bannerCss = ":host{all:initial}.fg-cookie{position:fixed;left:12px;right:12px;bottom:12px;z-index:2147483000;max-width:760px;margin:0 auto;" +
+    "background:#14213d;color:#fff;border-radius:16px;padding:16px 18px;box-shadow:0 18px 40px -12px #000a;box-sizing:border-box;" +
+    "font:14px/1.5 Inter,'Segoe UI',system-ui,Arial,sans-serif;display:flex;gap:14px;align-items:center;flex-wrap:wrap}" +
+    "p{margin:0;flex:1 1 320px;color:#e9edf7}a{color:#e4b94e;text-decoration:underline}" +
+    ".b{display:flex;gap:8px;flex:0 0 auto}" +
+    "button{border:0;border-radius:999px;padding:11px 18px;font:700 13px/1 Inter,'Segoe UI',system-ui,Arial,sans-serif;cursor:pointer}" +
+    ".ok{background:#e4b94e;color:#14213d}.no{background:transparent;color:#fff;box-shadow:inset 0 0 0 1px #ffffff66}" +
+    "button:focus-visible{outline:3px solid #fff;outline-offset:2px}";
+  var pageCss = ".fg-legal{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0 0;font:600 12px/1.4 Inter,'Segoe UI',system-ui,Arial,sans-serif;letter-spacing:0;text-transform:none}" +
+    ".fg-legal a{color:inherit;opacity:.8;text-decoration:underline}.fg-legal a:hover{opacity:1}";
+  var st = document.createElement("style"); st.textContent = pageCss; document.head.appendChild(st);
+
+  var box = null;
+  function close() { if (box && box.parentNode) box.parentNode.removeChild(box); box = null; }
+  function choose(v) { set(v); close(); fire(); }
+
+  function open() {
+    if (box) return;
+    box = document.createElement("div");
+    var root = box.attachShadow ? box.attachShadow({ mode: "open" }) : box;
+    root.innerHTML = "<style>" + bannerCss + "</style>" +
+      "<div class=\"fg-cookie\" role=\"dialog\" aria-label=\"Aviso de cookies\">" +
+      "<p>Usamos armazenamento no seu aparelho para salvar seus recordes e, quando a publicidade estiver ativa, cookies do Google e de parceiros para exibir anúncios. " +
+      "Ao aceitar, os anúncios podem ser personalizados; ao recusar, serão não personalizados. " +
+      "Saiba mais na <a href=\"" + base + "privacidade.html\">Política de Privacidade</a>.</p>" +
+      "<div class=\"b\"><button type=\"button\" class=\"no\">Recusar</button><button type=\"button\" class=\"ok\">Aceitar</button></div></div>";
+    root.querySelector(".ok").addEventListener("click", function () { choose("granted"); });
+    root.querySelector(".no").addEventListener("click", function () { choose("denied"); });
+    document.body.appendChild(box);
+  }
+
+  function ready(f) { if (document.body) f(); else document.addEventListener("DOMContentLoaded", f); }
+
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("[data-fg-cookies]");
+    if (a) { e.preventDefault(); open(); }
+  });
+
+  window.FGConsent = { get: get, open: open, onChange: function (f) { listeners.push(f); } };
+  if (!get()) ready(open);
+})();

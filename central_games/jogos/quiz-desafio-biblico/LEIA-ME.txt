@@ -1,0 +1,19 @@
+DESAFIO BÍBLICO — HTML5
+Versão 3 • 216 perguntas • novo tema "céu e luz"
+
+TESTAR:
+1. Extraia o ZIP.
+2. Abra index.html no navegador.
+3. Para publicar, envie a pasta inteira (css/, js/, icons/, manifest.json, sw.js) para uma hospedagem HTML5.
+
+NOVIDADES DA V3:
+- Novo visual claro, com céu, raios de luz e pergaminho, no mesmo estilo dos outros quizzes.
+- Capa de Bíblia em marfim e dourado, e cabeçalho azul-marinho.
+- Versículo do dia na tela inicial (muda todo dia).
+- Vidas em pombas (🕊️) e mensagens de acerto e erro mais acolhedoras.
+- Cores de acerto (verde) e erro (vermelho) mais claras.
+
+MANTÉM:
+- 4 categorias + Jornada Completa, Desafio do Dia, 50/50, Pular, +10s, bônus por sequência, recordes por categoria, conquistas, compartilhar, modo offline (PWA em http/https).
+- 10 perguntas por partida, 3 vidas, 30 segundos.
+- Recordes ficam salvos só no navegador/dispositivo.

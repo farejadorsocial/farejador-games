@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fbf8f2">
+<meta property="og:title" content="Farejador Games — Central de Quizzes">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="description" content="Farejador Games: quizzes gratuitos de Bíblia, futebol, geografia e conhecimentos gerais para jogar no computador e no celular.">
+<title>Farejador Games — Central de Quizzes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="canonical" href="https://farejadorsocial.github.io/farejador-games/central_games/">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html" aria-label="Farejador Games, início">
+    <span class="mono">FG</span>
+    <span class="brand-text">Farejador Games<small>Central de quizzes</small></span>
+  </a>
+  <nav aria-label="Principal"><a href="#jogos">Quizzes</a><a href="#como">Como funciona</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a></nav>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">Quizzes grátis • Computador e celular</span>
+    <h1>Jogue, aprenda e <em>desafie-se</em> todos os dias.</h1>
+    <p>Uma coleção de quizzes feitos com carinho: Bíblia, futebol, geografia e conhecimentos gerais. Sem cadastro, é só escolher e jogar.</p>
+    <div class="cta"><a class="btn primary" href="#jogos">Ver os quizzes</a><a class="btn ghost" href="#como">Como funciona</a></div>
+    <dl class="stats"><div><dt id="statGames">4</dt><dd>quizzes</dd></div><div><dt>470+</dt><dd>perguntas</dd></div><div><dt>123</dt><dd>países</dd></div><div><dt>100%</dt><dd>grátis</dd></div></dl>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="fan f1"><span>🌍</span><b>Bandeiras<br>e Capitais</b></div>
+    <div class="fan f2"><span>📖</span><b>Desafio<br>Bíblico</b></div>
+    <div class="fan f3"><span>💰</span><b>Quiz do<br>Milhão</b></div>
+    <div class="fan f4"><span>⚽</span><b>Futebol<br>Brasileiro</b></div>
+  </div>
+</section>
+
+<section class="section" id="jogos">
+  <div class="section-head"><div><span class="eyebrow">Escolha seu desafio</span><h2>Quizzes disponíveis</h2></div><span class="game-count" id="gameCount" aria-live="polite">4 jogos</span></div>
+  <div class="filters">
+    <label class="search"><span class="sr">Buscar quiz</span><input id="search" type="search" placeholder="Buscar quiz…" autocomplete="off"></label>
+    <div class="chips" role="group" aria-label="Filtrar por tema">
+      <button class="chip active" data-filter="Todos">Todos</button>
+      <button class="chip" data-filter="Geografia">Geografia</button>
+      <button class="chip" data-filter="Bíblia">Bíblia</button>
+      <button class="chip" data-filter="Conhecimentos">Conhecimentos</button>
+      <button class="chip" data-filter="Esportes">Esportes</button>
+    </div>
+  </div>
+  <div class="game-grid" id="gameGrid"></div>
+</section>
+
+<section class="section how" id="como">
+  <div class="section-head"><div><span class="eyebrow">Simples assim</span><h2>Como funciona</h2></div></div>
+  <ol class="steps">
+    <li><span class="n">1</span><h3>Escolha um quiz</h3><p>Cada jogo tem seu próprio tema, regras e visual. Escolha o que combina com você.</p></li>
+    <li><span class="n">2</span><h3>Responda e aprenda</h3><p>Todas as respostas vêm com explicação. Use ajudas como 50/50 e Pular nos momentos difíceis.</p></li>
+    <li><span class="n">3</span><h3>Evolua todo dia</h3><p>Faça o Desafio do Dia, ganhe conquistas e supere seus recordes. Tudo fica salvo no seu aparelho.</p></li>
+  </ol>
+</section>
+
+<!-- Espaço reservado para anúncios: remova o atributo hidden quando for usar. -->
+<section class="ad-slot" aria-label="Publicidade" hidden><span>Publicidade</span></section>
+
+<section class="faq" id="perguntas">
+  <span class="eyebrow">Dúvidas comuns</span>
+  <h2>Perguntas frequentes</h2>
+  <div class="faq-grid">
+    <div><h3>Os quizzes são gratuitos?</h3><p>Sim. Todos os quizzes são gratuitos e não pedem cadastro, nome ou e-mail. O site é mantido com anúncios exibidos entre as partidas.</p></div>
+    <div><h3>Onde ficam meus recordes?</h3><p>Apenas no seu aparelho, no armazenamento do navegador. Se você limpar os dados do site ou trocar de aparelho, os recordes não vão junto.</p></div>
+    <div><h3>Funciona no celular e sem internet?</h3><p>Sim. Todos os jogos se adaptam ao celular e, depois da primeira visita, podem ser usados offline e instalados na tela inicial.</p></div>
+    <div><h3>O que é o Desafio do Dia?</h3><p>Em cada quiz, todo dia há 10 perguntas iguais para todo mundo. Complete dias seguidos para aumentar sua sequência.</p></div>
+    <div><h3>Encontrei uma resposta errada. Como aviso?</h3><p>Pela página de <a href="contato.html">contato</a>. Conferimos a pergunta e corrigimos o que for necessário.</p></div>
+    <div><h3>Posso sugerir um quiz novo?</h3><p>Pode! Mande a ideia pela página de <a href="contato.html">contato</a>.</p></div>
+  </div>
+</section>
+<section class="about" id="sobre">
+  <div><span class="eyebrow">Sobre o portal</span><h2>Uma central, <em>vários desafios.</em></h2></div>
+  <p>O Farejador Games reúne quizzes para você jogar quando quiser, no computador ou no celular. Cada jogo tem seu próprio tema, suas perguntas e seu visual. É só escolher, jogar e tentar bater seu recorde. <a href="sobre.html" style="text-decoration:underline">Saiba mais sobre o portal</a>.</p>
+</section>
+</main>
+<footer class="site-footer"><nav aria-label="Informações do site"><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos de uso</a><a href="#" data-fg-cookies>Preferências de cookies</a></nav><div>© 2026 Farejador Games • Feito para jogar</div></footer>
+<script src="js/site-config.js"></script>
+<script src="js/consent.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+QUIZ DO MILHÃO — HTML5 (conhecimentos gerais)
+99 perguntas (32 fáceis, 35 médias, 32 difíceis) • 16 degraus de R$ 1.000 a R$ 1.000.000
+
+TESTAR:
+1. Extraia o ZIP.
+2. Abra index.html no navegador.
+3. Para publicar, envie a pasta inteira (css/, js/, icons/, manifest.json, sw.js) para uma hospedagem HTML5.
+
+COMO FUNCIONA:
+- 16 perguntas: 5 fáceis, 5 médias e 6 difíceis, sorteadas a cada partida.
+- Escolher uma alternativa e depois Confirmar (teclas A–D e Enter no computador).
+- Marcos garantidos em R$ 5.000, R$ 50.000 e R$ 500.000. Se errar, leva o último marco passado.
+- Parar: encerra o jogo e leva o prêmio já ganho.
+- Ajudas: Pular (3x), Cartas (elimina 1 a 3 erradas), Universitários (3 palpites) e Plateia (votação). As ajudas podem errar nas perguntas mais difíceis.
+- Desafio do Dia (mesmas perguntas para todos), recordes, conquistas, compartilhar e modo offline (PWA, em http/https).
+
+AVISOS:
+- O nome e o visual são originais ("Quiz do Milhão"), sem logos, marcas ou imagens de programas de TV. "Show do Milhão" é marca registrada, então não use esse nome nem o visual do programa ao publicar.
+- As perguntas ficam em js/questions.js (campos: tier 1/2/3, category, question, correct, options, explanation).
+- Recordes ficam salvos só no navegador/dispositivo.
