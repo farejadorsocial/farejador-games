@@ -5,6 +5,9 @@ window.FG_CONFIG = {
   email: "orgfarejador@gmail.com",        // e-mail de contato mostrado ao público
   responsavel: "Farejador Games",         // nome do responsável mostrado ao público
 
+  // Google Analytics 4 — coleta somente após consentimento no aviso de cookies.
+  analyticsId: "G-5PQC7TLG07",
+
   // ---- Anúncios (Google AdSense / H5 Games Ads) ----
   // Mantenha adsEnabled=false até o AdSense aprovar o site E o H5 Games Ads liberar sua conta.
   adsEnabled: false,
