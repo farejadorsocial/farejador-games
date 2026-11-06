@@ -26,7 +26,41 @@
 
   var box = null;
   function close() { if (box && box.parentNode) box.parentNode.removeChild(box); box = null; }
-  function choose(v) { set(v); close(); fire(); }
+  function loadAnalytics() {
+    var C = window.FG_CONFIG || {};
+    var id = C.analyticsId;
+    if (!id) return;
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+
+    if (!window.__fgAnalyticsLoaded) {
+      window.__fgAnalyticsLoaded = true;
+      window.gtag("js", new Date());
+      window.gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied"
+      });
+      var s = document.createElement("script");
+      s.async = true;
+      s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(id);
+      document.head.appendChild(s);
+      window.gtag("config", id, { send_page_view: true });
+    }
+
+    window.gtag("consent", "update", {
+      analytics_storage: get() === "granted" ? "granted" : "denied"
+    });
+  }
+
+  function choose(v) {
+    set(v);
+    close();
+    loadAnalytics();
+    fire();
+  }
 
   function open() {
     if (box) return;
@@ -51,5 +85,5 @@
   });
 
   window.FGConsent = { get: get, open: open, onChange: function (f) { listeners.push(f); } };
-  if (!get()) ready(open);
+  if (get() === "granted") loadAnalytics();\n  if (!get()) ready(open);
 })();
