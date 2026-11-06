@@ -26,3 +26,33 @@
 .faq-grid div{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
 .faq-grid h3{font-size:17px;margin-bottom:6px}.faq-grid p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.7}
 @media(max-width:700px){.faq-grid{grid-template-columns:1fr}.doc{padding:32px 0 50px}}
+
+/* ---------- Cabeçalho: mascote + menu compacto no celular ---------- */
+.topbar .brand{min-width:0;gap:12px}
+.mascot{display:block;width:48px;height:48px;object-fit:contain;flex:none;filter:drop-shadow(0 3px 4px #14213d40)}
+.topbar .brand-text{white-space:nowrap}
+.menu-btn{display:none;flex:none;width:46px;height:46px;border:1px solid var(--line);border-radius:14px;background:#fff;cursor:pointer;padding:0;position:relative;box-shadow:0 2px 8px -4px #14213d55}
+.menu-btn span{position:absolute;left:13px;right:13px;height:2px;border-radius:2px;background:var(--navy);transition:transform .2s,opacity .2s,top .2s}
+.menu-btn span:nth-child(1){top:16px}.menu-btn span:nth-child(2){top:22px}.menu-btn span:nth-child(3){top:28px}
+.topbar.open .menu-btn span:nth-child(1){top:22px;transform:rotate(45deg)}
+.topbar.open .menu-btn span:nth-child(2){opacity:0}
+.topbar.open .menu-btn span:nth-child(3){top:22px;transform:rotate(-45deg)}
+.menu-btn:focus-visible,.topbar nav a:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+@media(max-width:700px){
+  .topbar{height:68px;padding:0 14px}
+  .topbar .brand{gap:10px}
+  .mascot{width:46px;height:46px}
+  .topbar .brand-text{font-size:19px}
+  .topbar .brand-text small{font-size:9px;letter-spacing:.14em;margin-top:2px}
+  .topbar nav a:nth-child(2){display:inline-flex}
+  /* sem JavaScript: links em uma segunda linha */
+  .topbar:not(.js-nav){height:auto;flex-wrap:wrap;padding:8px 14px 6px}
+  .topbar:not(.js-nav) nav{width:100%;justify-content:center;flex-wrap:wrap}
+  /* com JavaScript: botão + menu suspenso */
+  .js-nav .menu-btn{display:block}
+  .js-nav nav{display:none;position:absolute;top:calc(100% + 8px);left:12px;right:12px;flex-direction:column;gap:2px;padding:8px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 18px 40px -14px #14213d66}
+  .js-nav.open nav{display:flex}
+  .js-nav nav a{display:block;padding:14px 16px;font-size:16px;border-radius:12px;color:var(--ink)}
+  .js-nav nav a:active,.js-nav nav a:hover{background:#f4efe3;box-shadow:none}
+}
+@media(max-width:340px){.topbar .brand-text{font-size:17px}.topbar .brand-text small{display:none}}

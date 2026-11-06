@@ -94,5 +94,6 @@
   });
 
   window.FGConsent = { get: get, open: open, onChange: function (f) { listeners.push(f); } };
-  if (get() === "granted") loadAnalytics();\n  if (!get()) ready(open);
+  if (get() === "granted") loadAnalytics();
+  if (!get()) ready(open);
 })();
