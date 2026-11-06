@@ -3,7 +3,7 @@
    - Qualquer link com o atributo data-fg-cookies reabre o aviso (Preferências de cookies).
    - Os anúncios (js/ads.js) só carregam depois que a pessoa escolhe. */
 (function () {
-  var KEY = "fg_consent_v1";
+  var KEY = "fg_consent_v2";
   var script = document.currentScript;
   var base = script && script.src ? script.src.replace(/js\/consent\.js.*$/, "") : "";
   var listeners = [];
