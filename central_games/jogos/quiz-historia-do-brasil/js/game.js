@@ -70,13 +70,13 @@ function useSkip(){if(locked||helps.skip<=0)return;helps.skip--;clearInterval(cl
 function useTime(){if(locked||helps.time<=0)return;helps.time--;deadline+=10000;updateClock();updateHelps();beep(740,.12)}
 /* ---------- fim ---------- */
 function finish(completed){clearInterval(clock);clock=null;const saved=save();const total=list.length;
-lastResult='📜 Quiz de História do Brasil — '+(names[cat]||'')+'\n⭐ '+score+' pontos · '+correct+'/'+total+' acertos'+(bestStreak>=3?' · 🔥 '+bestStreak+' seguidas':'')+'\nConsegue me superar?';
+lastResult='📜 Quiz de História do Brasil — '+(names[cat]||'')+'\n⭐ '+score+' pontos · '+correct+'/'+total+' acertos'+(bestStreak>=3?' · 🔥 '+bestStreak+' seguidas':'')+'\nConsegue me superar?';if(window.FGShare)FGShare.prepare({score:score,unit:'pts',cat:(names[cat]||''),ok:correct,total:total,streak:bestStreak,stars:Math.round(correct/Math.max(total,1)*5)});
 if(completed){$('finalScore').textContent=score;$('finalStats').textContent=correct+' acertos • '+wrong+' erros • maior sequência '+bestStreak;
 let line=saved.newRecord?'⭐ NOVO RECORDE PESSOAL!':'Continue estudando a nossa história';if(saved.dailyInfo)line+=' · 📅 '+saved.dailyInfo.streak+' dia(s) seguidos no Desafio do Dia';$('recordLine').textContent=line;show('result');if(saved.newRecord)confetti();chime()}
 else{$('overScore').textContent=score;$('overStats').textContent=correct+' acertos • '+wrong+' erros • maior sequência '+bestStreak;show('over')}}
 function confetti(){const box=$('confetti');box.innerHTML='';if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;const cols=['#f1d99e','#d7b36b','#e4c98f','#c0583f','#8fb08a'];
 for(let i=0;i<40;i++){const s=document.createElement('i');s.style.left=Math.random()*100+'%';s.style.background=cols[i%cols.length];s.style.animationDelay=Math.random()*.6+'s';s.style.animationDuration=1.6+Math.random()*1.4+'s';box.appendChild(s)}setTimeout(()=>box.innerHTML='',3500)}
-async function share(){const text=lastResult+(location.protocol.startsWith('http')?'\n'+location.href:'');try{if(navigator.share){await navigator.share({text})}else{await navigator.clipboard.writeText(text);toast('Resultado copiado!')}}catch(e){}}
+async function share(){if(window.FGShare){FGShare.share(lastResult);return}const text=lastResult+(location.protocol.startsWith('http')?'\n'+location.href:'');try{if(navigator.share){await navigator.share({text})}else{await navigator.clipboard.writeText(text);toast('Resultado copiado!')}}catch(e){}}
 function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000)}
 function ask(msg,yes){$('modalText').textContent=msg;$('modal').classList.add('show');$('modalYes').onclick=()=>{$('modal').classList.remove('show');yes()};$('modalNo').onclick=()=>$('modal').classList.remove('show');$('modalNo').focus()}
 function home(){clearInterval(clock);clock=null;show('home');audioStart()}
