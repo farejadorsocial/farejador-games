@@ -88,7 +88,7 @@ function draw(r,t,mascot){
  // chamada
  c.fillStyle=t.cta;c.font=t.ctaStyle+' 40px '+t.fc;c.fillText(r.cta||'Consegue me superar?',cx,y+900-(pills.length?0:60));
  // rodapé
- c.fillStyle=t.top;c.font="800 34px 'Poppins','DM Sans',sans-serif";c.fillText('Jogue grátis',cx,1216);c.font="600 27px 'Poppins','DM Sans',sans-serif";c.fillText(siteLabel(),cx,1262);
+ c.fillStyle=t.top;c.font="800 34px 'Poppins','DM Sans',sans-serif";c.fillText('Jogue grátis',cx,1216);c.font="600 27px 'Poppins','DM Sans',sans-serif";c.fillText(r.site||siteLabel(),cx,1262);
  return cv;
 }
 

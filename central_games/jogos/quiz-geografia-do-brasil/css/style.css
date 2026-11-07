@@ -298,3 +298,6 @@ h1{font-size:40px}h1 em,h2 em{color:#ffe7a6;display:block}
 .cats button{border-left:0;border-radius:14px;padding-left:16px;background:linear-gradient(90deg,#fffaf0 0 calc(100% - 46px),#fff1d6 calc(100% - 46px));border-right:2px dashed #e3d5b3}
 .medallion{border-radius:50%;border:3px dashed #e8693c}
 .gold{font-size:13px}
+
+@media(max-height:760px){.book{height:230px}.bookinner{transform:perspective(600px) rotateX(8deg) rotate(-3deg) scale(.86)}}
+@media(max-width:480px){header b{font-size:13px;letter-spacing:1px}}
