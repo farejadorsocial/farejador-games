@@ -56,3 +56,9 @@
   .js-nav nav a:active,.js-nav nav a:hover{background:#f4efe3;box-shadow:none}
 }
 @media(max-width:340px){.topbar .brand-text{font-size:17px}.topbar .brand-text small{display:none}}
+
+/* ---------- Redes sociais no rodapé ---------- */
+.site-footer .social{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:10px 0 2px;flex-basis:100%;width:100%}
+.site-footer .social a{display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink);font-size:13px;font-weight:600;transition:.2s}
+.site-footer .social a:hover{border-color:var(--gold);transform:translateY(-1px);box-shadow:0 6px 14px -8px #14213d55}
+.site-footer .social svg{width:17px;height:17px;fill:currentColor;flex:none}
