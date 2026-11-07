@@ -10,7 +10,19 @@ const games=[
  meta:["16 degraus","Ajudas","Até R$ 1.000.000"],url:"jogos/quiz-do-milhao/index.html",guide:"quizzes/quiz-do-milhao.html",key:"qmStats",fmt:s=>"R$ "+Number(s.best).toLocaleString("pt-BR")},
 {id:"futebol-brasileiro",title:"Futebol Brasileiro",category:"Esportes",emoji:"⚽",theme:"fut",label:"Paixão nacional",
  description:"Seleção, clubes, craques e curiosidades. Inclui o modo “Quem sou eu?” e muita rivalidade saudável.",
- meta:["158 perguntas","4 categorias","Quem sou eu?"],url:"jogos/quiz-futebol-brasileiro/index.html",guide:"quizzes/futebol-brasileiro.html",key:"fbStats",fmt:s=>s.best+" pts"}
+ meta:["158 perguntas","4 categorias","Quem sou eu?"],url:"jogos/quiz-futebol-brasileiro/index.html",guide:"quizzes/futebol-brasileiro.html",key:"fbStats",fmt:s=>s.best+" pts"},
+{id:"historia-do-brasil",title:"História do Brasil",category:"História",emoji:"📜",theme:"his",label:"Viagem no tempo",
+ description:"Colônia, Império, República e o Brasil de hoje. Datas, personagens e fatos que fizeram o país, com explicação em cada resposta.",
+ meta:["204 perguntas", "4 épocas", "Linha do tempo"],url:"jogos/quiz-historia-do-brasil/index.html",guide:"quizzes/historia-do-brasil.html",key:"hbStats",fmt:s=>s.best+" pts"},
+{id:"geografia-do-brasil",title:"Geografia do Brasil",category:"Geografia",emoji:"🗺️",theme:"gbr",label:"Do Oiapoque ao Chuí",
+ description:"Estados e capitais, regiões, rios, biomas, cidades e comidas típicas. Uma viagem por todo o país em perguntas.",
+ meta:["201 perguntas", "27 unidades", "4 temas"],url:"jogos/quiz-geografia-do-brasil/index.html",guide:"quizzes/geografia-do-brasil.html",key:"gbStats",fmt:s=>s.best+" pts"},
+{id:"ciencias-corpo-humano",title:"Ciências e Corpo Humano",category:"Ciências",emoji:"🔬",theme:"cie",label:"Laboratório",
+ description:"Corpo humano, animais e plantas, espaço e química do dia a dia. Perguntas curiosas com explicação para aprender de verdade.",
+ meta:["205 perguntas", "4 áreas", "Corpo humano"],url:"jogos/quiz-ciencias-corpo-humano/index.html",guide:"quizzes/ciencias-corpo-humano.html",key:"ccStats",fmt:s=>s.best+" pts"},
+{id:"cultura-pop-br",title:"Novelas e Cultura Pop BR",category:"Cultura Pop",emoji:"📺",theme:"pop",label:"Tá no ar",
+ description:"Novelas, música brasileira, programas de TV, cinema, livros e folclore. Vilãs famosas, bordões e clássicos que marcaram o Brasil.",
+ meta:["201 perguntas", "4 temas", "Novelas e música"],url:"jogos/quiz-cultura-pop-br/index.html",guide:"quizzes/cultura-pop-br.html",key:"cpStats",fmt:s=>s.best+" pts"}
 ];
 const $=s=>document.querySelector(s);
 const grid=$("#gameGrid"),search=$("#search"),count=$("#gameCount");

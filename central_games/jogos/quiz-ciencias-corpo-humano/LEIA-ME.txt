@@ -1,0 +1,13 @@
+QUIZ DE CIÊNCIAS E CORPO HUMANO — HTML5
+205 perguntas • 4 categorias + Feira de Ciências + Desafio do Dia
+
+INCLUI:
+- Categorias: Corpo Humano, Animais e Seres Vivos, Espaço e Planeta Terra, Química e Física.
+- 10 perguntas por partida, 3 vidas, 30 segundos, bônus por sequência de acertos.
+- Ajudas: 50/50, Pular e +10s. Teclas 1–4 respondem, Enter avança.
+- Desafio do Dia, recordes por categoria, conquistas, compartilhar resultado.
+- Funciona offline e pode ser instalado no celular (PWA), quando hospedado em http/https.
+
+DADOS:
+- Perguntas em js/questions.js (campos: category, question, correct, options, reference, explanation).
+- Recordes salvos no navegador com a chave "ccStats".

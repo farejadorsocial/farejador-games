@@ -1,11 +1,15 @@
 # Farejador Games
 
-Central HTML5 com quatro quizzes independentes:
+Central HTML5 com oito quizzes independentes:
 
 1. Desafio Bíblico (v3, novo tema claro "céu e luz")
 2. Bandeiras e Capitais
 3. Quiz do Milhão
 4. Futebol Brasileiro
+5. História do Brasil
+6. Geografia do Brasil
+7. Ciências e Corpo Humano
+8. Novelas e Cultura Pop BR
 
 ## Testar no Windows
 

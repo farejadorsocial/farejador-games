@@ -67,6 +67,10 @@ main{max-width:1160px;margin:0 auto;padding:0 24px}
 .t-geo .cover{background:linear-gradient(160deg,#5fd0e8,#0f8fb0 65%,#0b5f78)}
 .t-mil .cover{background:linear-gradient(160deg,#4f86ff,#2158e0 60%,#16358f)}
 .t-fut .cover{background:linear-gradient(160deg,#58d07a,#1f9d4d 62%,#0f6a30)}
+.t-his .cover{background:linear-gradient(160deg,#f0c27a,#c07a2c 62%,#7a4515)}
+.t-gbr .cover{background:linear-gradient(160deg,#7fe0c8,#1aa58e 60%,#0b6156)}
+.t-cie .cover{background:linear-gradient(160deg,#8fb4ff,#3a63d8 60%,#1d2f7a)}
+.t-pop .cover{background:linear-gradient(160deg,#f59ad6,#c23ba0 60%,#6a1a75)}
 .body{display:flex;flex-direction:column;flex:1;padding:22px 24px 22px}
 .cat{font-size:10.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
 .body h3{font-size:25px;margin:6px 0 8px;font-weight:600}
