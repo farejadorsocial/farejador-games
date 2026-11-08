@@ -1,5 +1,5 @@
 QUIZ DO MILHÃO — HTML5 (conhecimentos gerais)
-99 perguntas (32 fáceis, 35 médias, 32 difíceis) • 16 degraus de R$ 1.000 a R$ 1.000.000
+210 perguntas (69 fáceis, 71 médias, 70 difíceis) • 16 degraus de R$ 1.000 a R$ 1.000.000
 
 TESTAR:
 1. Extraia o ZIP.

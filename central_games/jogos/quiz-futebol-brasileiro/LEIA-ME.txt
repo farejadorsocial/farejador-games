@@ -1,5 +1,5 @@
 QUIZ DO FUTEBOL BRASILEIRO — HTML5
-158 perguntas • 4 categorias + Campeonato Completo + Desafio do Dia
+218 perguntas • 4 categorias + Campeonato Completo + Desafio do Dia
 
 TESTAR:
 1. Extraia o ZIP.

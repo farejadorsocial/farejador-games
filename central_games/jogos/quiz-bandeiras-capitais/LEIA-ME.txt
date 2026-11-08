@@ -1,5 +1,5 @@
 BANDEIRAS E CAPITAIS — HTML5
-123 países • 4 tipos de pergunta • 4 destinos + Mundo todo + Desafio do Dia
+194 países • 4 tipos de pergunta • 4 destinos + Mundo todo + Desafio do Dia
 
 TESTAR:
 1. Extraia o ZIP.

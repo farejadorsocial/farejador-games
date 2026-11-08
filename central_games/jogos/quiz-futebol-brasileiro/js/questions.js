@@ -2220,5 +2220,849 @@ const QUESTION_BANK=[
   ],
   "reference": "Títulos",
   "explanation": "Tetra (4º título) em 1994; penta (5º) em 2002."
+ },
+ {
+  "id": 159,
+  "category": "SEL",
+  "question": "Qual jogador de apenas 17 anos marcou dois gols na final da Copa de 1958?",
+  "correct": "Pelé",
+  "options": [
+   "Pelé",
+   "Vavá",
+   "Garrincha",
+   "Didi"
+  ],
+  "reference": "Final de 1958",
+  "explanation": "Pelé marcou duas vezes na vitória por 5 a 2 sobre a Suécia."
+ },
+ {
+  "id": 160,
+  "category": "SEL",
+  "question": "Qual foi o placar da final da Copa de 1958?",
+  "correct": "Brasil 5 x 2 Suécia",
+  "options": [
+   "Brasil 5 x 2 Suécia",
+   "Brasil 3 x 1 Suécia",
+   "Brasil 2 x 0 Suécia",
+   "Brasil 4 x 2 Suécia"
+  ],
+  "reference": "Final de 1958",
+  "explanation": "A goleada sobre os donos da casa deu ao Brasil o primeiro título mundial."
+ },
+ {
+  "id": 161,
+  "category": "SEL",
+  "question": "Contra qual seleção o Brasil disputou a final da Copa de 1962?",
+  "correct": "Tchecoslováquia",
+  "options": [
+   "Tchecoslováquia",
+   "Inglaterra",
+   "Chile",
+   "Hungria"
+  ],
+  "reference": "Final de 1962",
+  "explanation": "O Brasil venceu por 3 a 1 e se tornou bicampeão."
+ },
+ {
+  "id": 162,
+  "category": "SEL",
+  "question": "Quem substituiu Pelé, que se machucou, e brilhou na Copa de 1962?",
+  "correct": "Amarildo",
+  "options": [
+   "Amarildo",
+   "Coutinho",
+   "Zagallo",
+   "Vavá"
+  ],
+  "reference": "Copa de 1962",
+  "explanation": "Amarildo marcou gols importantes, inclusive na final."
+ },
+ {
+  "id": 163,
+  "category": "SEL",
+  "question": "Quem foi eleito o melhor jogador da Copa de 1962?",
+  "correct": "Garrincha",
+  "options": [
+   "Garrincha",
+   "Pelé",
+   "Didi",
+   "Nilton Santos"
+  ],
+  "reference": "Copa de 1962",
+  "explanation": "Sem Pelé, Garrincha comandou o time rumo ao bi."
+ },
+ {
+  "id": 164,
+  "category": "SEL",
+  "question": "Quem era o técnico do Brasil no bicampeonato de 1962?",
+  "correct": "Aymoré Moreira",
+  "options": [
+   "Aymoré Moreira",
+   "Vicente Feola",
+   "Mário Zagallo",
+   "Zezé Moreira"
+  ],
+  "reference": "Copa de 1962",
+  "explanation": "Aymoré Moreira assumiu o lugar de Vicente Feola."
+ },
+ {
+  "id": 165,
+  "category": "SEL",
+  "question": "Em qual país foi disputada a Copa do Mundo de 1970?",
+  "correct": "México",
+  "options": [
+   "México",
+   "Alemanha",
+   "Argentina",
+   "Inglaterra"
+  ],
+  "reference": "Copa de 1970",
+  "explanation": "O tricampeonato foi conquistado no Estádio Azteca, na Cidade do México."
+ },
+ {
+  "id": 166,
+  "category": "SEL",
+  "question": "Quem marcou o quarto gol da final de 1970, depois de uma jogada coletiva famosa?",
+  "correct": "Carlos Alberto Torres",
+  "options": [
+   "Carlos Alberto Torres",
+   "Jairzinho",
+   "Rivellino",
+   "Gérson"
+  ],
+  "reference": "Final de 1970",
+  "explanation": "O capitão chutou forte após passe de Pelé, fechando o 4 a 1 contra a Itália."
+ },
+ {
+  "id": 167,
+  "category": "SEL",
+  "question": "Em qual estádio foi disputada a final da Copa de 1994?",
+  "correct": "Rose Bowl",
+  "options": [
+   "Rose Bowl",
+   "Maracanã",
+   "Estádio Azteca",
+   "Wembley"
+  ],
+  "reference": "Final de 1994",
+  "explanation": "O estádio fica em Pasadena, na Califórnia."
+ },
+ {
+  "id": 168,
+  "category": "SEL",
+  "question": "Em qual cidade foi disputada a final da Copa de 2002?",
+  "correct": "Yokohama",
+  "options": [
+   "Yokohama",
+   "Seul",
+   "Tóquio",
+   "Osaka"
+  ],
+  "reference": "Final de 2002",
+  "explanation": "A Copa de 2002 foi a primeira na Ásia, no Japão e na Coreia do Sul."
+ },
+ {
+  "id": 169,
+  "category": "SEL",
+  "question": "Quem era o goleiro titular do Brasil no pentacampeonato de 2002?",
+  "correct": "Marcos",
+  "options": [
+   "Marcos",
+   "Dida",
+   "Taffarel",
+   "Rogério Ceni"
+  ],
+  "reference": "Copa de 2002",
+  "explanation": "O goleiro do Palmeiras fez grandes defesas na campanha."
+ },
+ {
+  "id": 170,
+  "category": "SEL",
+  "question": "Qual seleção o Brasil goleou por 3 a 0 na final da Copa América de 2007?",
+  "correct": "Argentina",
+  "options": [
+   "Argentina",
+   "Uruguai",
+   "Chile",
+   "México"
+  ],
+  "reference": "Copa América de 2007",
+  "explanation": "A final foi em Maracaibo, na Venezuela."
+ },
+ {
+  "id": 171,
+  "category": "SEL",
+  "question": "Qual seleção venceu o Brasil na final da Copa América de 2021, no Maracanã?",
+  "correct": "Argentina",
+  "options": [
+   "Argentina",
+   "Uruguai",
+   "Colômbia",
+   "Peru"
+  ],
+  "reference": "Copa América de 2021",
+  "explanation": "Di María marcou o gol do 1 a 0."
+ },
+ {
+  "id": 172,
+  "category": "SEL",
+  "question": "Quem o Brasil venceu na final do futebol masculino dos Jogos de Tóquio?",
+  "correct": "Espanha",
+  "options": [
+   "Espanha",
+   "Alemanha",
+   "Japão",
+   "México"
+  ],
+  "reference": "Ouro olímpico em Tóquio",
+  "explanation": "O Brasil venceu por 2 a 1 na prorrogação e conquistou o bicampeonato olímpico."
+ },
+ {
+  "id": 173,
+  "category": "SEL",
+  "question": "Contra quem a Seleção Brasileira fez sua primeira partida, em 1914?",
+  "correct": "Exeter City",
+  "options": [
+   "Exeter City",
+   "Argentina",
+   "Uruguai",
+   "Chile"
+  ],
+  "reference": "Primeiro jogo da Seleção",
+  "explanation": "O time inglês excursionava pelo Brasil e perdeu por 2 a 0."
+ },
+ {
+  "id": 174,
+  "category": "SEL",
+  "question": "Qual país foi escolhido para sediar a Copa do Mundo Feminina de 2027?",
+  "correct": "Brasil",
+  "options": [
+   "Brasil",
+   "Estados Unidos",
+   "Alemanha",
+   "Austrália"
+  ],
+  "reference": "Copa Feminina de 2027",
+  "explanation": "Será a primeira Copa do Mundo Feminina na América do Sul."
+ },
+ {
+  "id": 175,
+  "category": "CLU",
+  "question": "Qual clube é conhecido como \"Tricolor do Morumbi\"?",
+  "correct": "São Paulo",
+  "options": [
+   "São Paulo",
+   "Fluminense",
+   "Grêmio",
+   "Bahia"
+  ],
+  "reference": "Apelidos de clubes",
+  "explanation": "O São Paulo manda seus jogos no estádio do Morumbi."
+ },
+ {
+  "id": 176,
+  "category": "CLU",
+  "question": "Qual clube é conhecido como \"Peixe\"?",
+  "correct": "Santos",
+  "options": [
+   "Santos",
+   "Vasco",
+   "Sport",
+   "Ceará"
+  ],
+  "reference": "Apelidos de clubes",
+  "explanation": "O apelido vem da ligação da cidade com o mar."
+ },
+ {
+  "id": 177,
+  "category": "CLU",
+  "question": "Qual clube é conhecido como \"Fogão\"?",
+  "correct": "Botafogo",
+  "options": [
+   "Botafogo",
+   "Flamengo",
+   "Fluminense",
+   "Vasco"
+  ],
+  "reference": "Apelidos de clubes",
+  "explanation": "O Botafogo tem a estrela solitária no escudo."
+ },
+ {
+  "id": 178,
+  "category": "CLU",
+  "question": "Qual clube é chamado de \"Gigante da Colina\"?",
+  "correct": "Vasco",
+  "options": [
+   "Vasco",
+   "Corinthians",
+   "Bahia",
+   "Cruzeiro"
+  ],
+  "reference": "Apelidos de clubes",
+  "explanation": "O apelido vem de São Januário, construído no alto de uma colina."
+ },
+ {
+  "id": 179,
+  "category": "CLU",
+  "question": "Qual clube é conhecido como \"Imortal Tricolor\"?",
+  "correct": "Grêmio",
+  "options": [
+   "Grêmio",
+   "Fluminense",
+   "São Paulo",
+   "Bahia"
+  ],
+  "reference": "Apelidos de clubes",
+  "explanation": "O apelido aparece até no hino do clube gaúcho."
+ },
+ {
+  "id": 180,
+  "category": "CLU",
+  "question": "Qual clube é conhecido como \"Furacão\"?",
+  "correct": "Athletico-PR",
+  "options": [
+   "Athletico-PR",
+   "Coritiba",
+   "Sport",
+   "Fortaleza"
+  ],
+  "reference": "Apelidos de clubes",
+  "explanation": "O apelido vem de um time arrasador dos anos 1940."
+ },
+ {
+  "id": 181,
+  "category": "CLU",
+  "question": "Qual clube é conhecido como \"Esquadrão de Aço\"?",
+  "correct": "Bahia",
+  "options": [
+   "Bahia",
+   "Vitória",
+   "Ceará",
+   "Sport"
+  ],
+  "reference": "Apelidos de clubes",
+  "explanation": "O Bahia foi o primeiro campeão nacional, na Taça Brasil de 1959."
+ },
+ {
+  "id": 182,
+  "category": "CLU",
+  "question": "Qual clube venceu a Libertadores em 1992 e 1993?",
+  "correct": "São Paulo",
+  "options": [
+   "São Paulo",
+   "Palmeiras",
+   "Grêmio",
+   "Cruzeiro"
+  ],
+  "reference": "São Paulo de Telê",
+  "explanation": "O time de Telê Santana também ganhou dois Mundiais nesses anos."
+ },
+ {
+  "id": 183,
+  "category": "CLU",
+  "question": "Qual clube carioca venceu a Libertadores de 1998?",
+  "correct": "Vasco",
+  "options": [
+   "Vasco",
+   "Flamengo",
+   "Fluminense",
+   "Botafogo"
+  ],
+  "reference": "Libertadores de 1998",
+  "explanation": "O Vasco venceu o Barcelona de Guayaquil na final."
+ },
+ {
+  "id": 184,
+  "category": "CLU",
+  "question": "Qual clube venceu a Libertadores em 2006 e em 2010?",
+  "correct": "Internacional",
+  "options": [
+   "Internacional",
+   "Grêmio",
+   "São Paulo",
+   "Santos"
+  ],
+  "reference": "Internacional",
+  "explanation": "Em 2006 o Inter também conquistou o Mundial, contra o Barcelona."
+ },
+ {
+  "id": 185,
+  "category": "CLU",
+  "question": "Qual clube mineiro venceu a Libertadores em 1976 e 1997?",
+  "correct": "Cruzeiro",
+  "options": [
+   "Cruzeiro",
+   "Atlético-MG",
+   "América-MG",
+   "Villa Nova"
+  ],
+  "reference": "Cruzeiro",
+  "explanation": "O Cruzeiro foi o segundo clube brasileiro a ganhar a Libertadores."
+ },
+ {
+  "id": 186,
+  "category": "CLU",
+  "question": "Quantas vezes o Grêmio foi campeão da Libertadores?",
+  "correct": "3",
+  "options": [
+   "3",
+   "1",
+   "2",
+   "4"
+  ],
+  "reference": "Grêmio",
+  "explanation": "O Grêmio venceu em 1983, 1995 e 2017."
+ },
+ {
+  "id": 187,
+  "category": "CLU",
+  "question": "Qual clube venceu o Brasileirão e a Libertadores no mesmo ano, em 2024?",
+  "correct": "Botafogo",
+  "options": [
+   "Botafogo",
+   "Flamengo",
+   "Palmeiras",
+   "Atlético-MG"
+  ],
+  "reference": "Botafogo 2024",
+  "explanation": "Foi a primeira Libertadores da história do Botafogo."
+ },
+ {
+  "id": 188,
+  "category": "CLU",
+  "question": "Qual é o nome do clássico entre Palmeiras e São Paulo?",
+  "correct": "Choque-Rei",
+  "options": [
+   "Choque-Rei",
+   "Majestoso",
+   "San-São",
+   "Dérbi"
+  ],
+  "reference": "Clássicos",
+  "explanation": "O Majestoso é São Paulo x Corinthians e o San-São é Santos x São Paulo."
+ },
+ {
+  "id": 189,
+  "category": "CLU",
+  "question": "Qual clássico paranaense opõe Athletico e Coritiba?",
+  "correct": "Atletiba",
+  "options": [
+   "Atletiba",
+   "Paratiba",
+   "Dérbi do Sul",
+   "Clássico da Paz"
+  ],
+  "reference": "Clássicos",
+  "explanation": "É o maior clássico do futebol paranaense."
+ },
+ {
+  "id": 190,
+  "category": "CLU",
+  "question": "O Clássico-Rei do Nordeste é disputado entre Ceará e qual clube?",
+  "correct": "Fortaleza",
+  "options": [
+   "Fortaleza",
+   "Sport",
+   "Bahia",
+   "Náutico"
+  ],
+  "reference": "Clássicos",
+  "explanation": "O jogo movimenta a capital cearense."
+ },
+ {
+  "id": 191,
+  "category": "CRA",
+  "question": "Qual meia campeão em 1958 era chamado de \"Príncipe Etíope\"?",
+  "correct": "Didi",
+  "options": [
+   "Didi",
+   "Zizinho",
+   "Garrincha",
+   "Zito"
+  ],
+  "reference": "Didi",
+  "explanation": "O apelido foi criado pelo escritor Nelson Rodrigues."
+ },
+ {
+  "id": 192,
+  "category": "CRA",
+  "question": "Qual lateral do Botafogo era chamado de \"Enciclopédia do Futebol\"?",
+  "correct": "Nilton Santos",
+  "options": [
+   "Nilton Santos",
+   "Djalma Santos",
+   "Carlos Alberto Torres",
+   "Júnior"
+  ],
+  "reference": "Nilton Santos",
+  "explanation": "Ele foi campeão do mundo em 1958 e 1962."
+ },
+ {
+  "id": 193,
+  "category": "CRA",
+  "question": "Qual brasileiro foi eleito melhor jogador do mundo pela FIFA em 1996, 1997 e 2002?",
+  "correct": "Ronaldo",
+  "options": [
+   "Ronaldo",
+   "Romário",
+   "Rivaldo",
+   "Ronaldinho Gaúcho"
+  ],
+  "reference": "Ronaldo Fenômeno",
+  "explanation": "Ronaldo foi o primeiro a vencer o prêmio da FIFA três vezes."
+ },
+ {
+  "id": 194,
+  "category": "CRA",
+  "question": "Em que ano Kaká ganhou a Bola de Ouro?",
+  "correct": "2007",
+  "options": [
+   "2007",
+   "2005",
+   "2002",
+   "2010"
+  ],
+  "reference": "Kaká",
+  "explanation": "Kaká brilhava no Milan, campeão da Champions naquele ano."
+ },
+ {
+  "id": 195,
+  "category": "CRA",
+  "question": "Por qual clube brasileiro Ronaldinho Gaúcho ganhou a Libertadores de 2013?",
+  "correct": "Atlético-MG",
+  "options": [
+   "Atlético-MG",
+   "Grêmio",
+   "Flamengo",
+   "Fluminense"
+  ],
+  "reference": "Ronaldinho no Galo",
+  "explanation": "Ronaldinho foi o grande nome do primeiro título continental do Atlético."
+ },
+ {
+  "id": 196,
+  "category": "CRA",
+  "question": "Qual atacante ficou conhecido como \"Imperador\"?",
+  "correct": "Adriano",
+  "options": [
+   "Adriano",
+   "Romário",
+   "Edmundo",
+   "Ronaldo"
+  ],
+  "reference": "Adriano",
+  "explanation": "O apelido nasceu na Inter de Milão."
+ },
+ {
+  "id": 197,
+  "category": "CRA",
+  "question": "Qual meia do Corinthians ficou conhecido como \"Pé de Anjo\"?",
+  "correct": "Marcelinho Carioca",
+  "options": [
+   "Marcelinho Carioca",
+   "Neto",
+   "Rivellino",
+   "Sócrates"
+  ],
+  "reference": "Marcelinho Carioca",
+  "explanation": "Ele era famoso pelas cobranças de falta."
+ },
+ {
+  "id": 198,
+  "category": "CRA",
+  "question": "Qual craque tinha um chute tão forte que ganhou o apelido de \"Patada Atômica\"?",
+  "correct": "Rivellino",
+  "options": [
+   "Rivellino",
+   "Roberto Carlos",
+   "Nelinho",
+   "Éder"
+  ],
+  "reference": "Rivellino",
+  "explanation": "O meia foi tricampeão do mundo em 1970."
+ },
+ {
+  "id": 199,
+  "category": "CRA",
+  "question": "Quem é o maior artilheiro da história do Vasco?",
+  "correct": "Roberto Dinamite",
+  "options": [
+   "Roberto Dinamite",
+   "Romário",
+   "Edmundo",
+   "Ademir de Menezes"
+  ],
+  "reference": "Roberto Dinamite",
+  "explanation": "Ele marcou mais de 700 gols pelo clube."
+ },
+ {
+  "id": 200,
+  "category": "CRA",
+  "question": "Quem é o maior artilheiro da história do Flamengo?",
+  "correct": "Zico",
+  "options": [
+   "Zico",
+   "Gabigol",
+   "Dida",
+   "Romário"
+  ],
+  "reference": "Zico",
+  "explanation": "Zico marcou mais de 500 gols com a camisa rubro-negra."
+ },
+ {
+  "id": 201,
+  "category": "CRA",
+  "question": "Quem é a maior artilheira da história das Copas do Mundo, somando homens e mulheres?",
+  "correct": "Marta",
+  "options": [
+   "Marta",
+   "Formiga",
+   "Cristiane",
+   "Sissi"
+  ],
+  "reference": "Marta",
+  "explanation": "Marta marcou 17 gols em Copas do Mundo."
+ },
+ {
+  "id": 202,
+  "category": "CRA",
+  "question": "Por qual clube dos Estados Unidos Marta passou a jogar em 2017?",
+  "correct": "Orlando Pride",
+  "options": [
+   "Orlando Pride",
+   "Seattle Reign",
+   "Chicago Red Stars",
+   "Portland Thorns"
+  ],
+  "reference": "Marta",
+  "explanation": "Marta virou ídolo do Orlando Pride."
+ },
+ {
+  "id": 203,
+  "category": "CRA",
+  "question": "Quem sou eu? Sou o \"Bruxo\", fui o melhor do mundo em 2004 e 2005 e brilhei no Barcelona.",
+  "correct": "Ronaldinho Gaúcho",
+  "options": [
+   "Ronaldinho Gaúcho",
+   "Kaká",
+   "Rivaldo",
+   "Neymar"
+  ],
+  "reference": "Quem sou eu",
+  "explanation": "Ronaldinho encantou o mundo com dribles e sorrisos.",
+  "type": "who"
+ },
+ {
+  "id": 204,
+  "category": "CRA",
+  "question": "Quem sou eu? Comecei no São Paulo e ganhei a Bola de Ouro de 2007 jogando no Milan.",
+  "correct": "Kaká",
+  "options": [
+   "Kaká",
+   "Ronaldinho Gaúcho",
+   "Raí",
+   "Alexandre Pato"
+  ],
+  "reference": "Quem sou eu",
+  "explanation": "Kaká foi o último brasileiro a ganhar a Bola de Ouro.",
+  "type": "who"
+ },
+ {
+  "id": 205,
+  "category": "CRA",
+  "question": "Quem sou eu? Sou o \"Imperador\", fui ídolo na Inter de Milão e campeão brasileiro pelo Flamengo.",
+  "correct": "Adriano",
+  "options": [
+   "Adriano",
+   "Ronaldo",
+   "Romário",
+   "Vágner Love"
+  ],
+  "reference": "Quem sou eu",
+  "explanation": "Adriano foi campeão brasileiro com o Flamengo em 2009.",
+  "type": "who"
+ },
+ {
+  "id": 206,
+  "category": "CRA",
+  "question": "Quem sou eu? Fui a \"Enciclopédia do Futebol\", lateral do Botafogo e campeão do mundo em 1958 e 1962.",
+  "correct": "Nilton Santos",
+  "options": [
+   "Nilton Santos",
+   "Djalma Santos",
+   "Garrincha",
+   "Zito"
+  ],
+  "reference": "Quem sou eu",
+  "explanation": "O estádio do Botafogo leva o meu nome.",
+  "type": "who"
+ },
+ {
+  "id": 207,
+  "category": "CUR",
+  "question": "Quanto tempo dura cada tempo da prorrogação?",
+  "correct": "15 minutos",
+  "options": [
+   "15 minutos",
+   "10 minutos",
+   "20 minutos",
+   "30 minutos"
+  ],
+  "reference": "Regras",
+  "explanation": "São dois tempos de 15 minutos."
+ },
+ {
+  "id": 208,
+  "category": "CUR",
+  "question": "Quantas substituições cada time pode fazer em uma partida oficial, pela regra atual?",
+  "correct": "5",
+  "options": [
+   "5",
+   "3",
+   "4",
+   "6"
+  ],
+  "reference": "Regras",
+  "explanation": "A regra das cinco trocas virou permanente em 2022."
+ },
+ {
+  "id": 209,
+  "category": "CUR",
+  "question": "Em qual destas situações não existe impedimento?",
+  "correct": "Na cobrança de lateral",
+  "options": [
+   "Na cobrança de lateral",
+   "No passe de um companheiro",
+   "No rebote do goleiro",
+   "No cruzamento na área"
+  ],
+  "reference": "Regras",
+  "explanation": "Também não há impedimento em tiro de meta e escanteio."
+ },
+ {
+  "id": 210,
+  "category": "CUR",
+  "question": "Em qual estádio foi disputada a final da Copa do Mundo de 2014?",
+  "correct": "Maracanã",
+  "options": [
+   "Maracanã",
+   "Mineirão",
+   "Arena Corinthians",
+   "Mané Garrincha"
+  ],
+  "reference": "Copa de 2014",
+  "explanation": "A Alemanha venceu a Argentina por 1 a 0 na prorrogação."
+ },
+ {
+  "id": 211,
+  "category": "CUR",
+  "question": "Qual seleção foi campeã da Copa do Mundo de 2022, no Catar?",
+  "correct": "Argentina",
+  "options": [
+   "Argentina",
+   "França",
+   "Croácia",
+   "Marrocos"
+  ],
+  "reference": "Copa de 2022",
+  "explanation": "A Argentina venceu a França nos pênaltis, depois de 3 a 3."
+ },
+ {
+  "id": 212,
+  "category": "CUR",
+  "question": "Qual é o nome do mascote da Seleção Brasileira?",
+  "correct": "Canarinho Pistola",
+  "options": [
+   "Canarinho Pistola",
+   "Fuleco",
+   "Zé Gotinha",
+   "Brasilzinho"
+  ],
+  "reference": "Mascotes",
+  "explanation": "O mascote ficou famoso pela cara de bravo."
+ },
+ {
+  "id": 213,
+  "category": "CUR",
+  "question": "Qual clube joga na Arena da Baixada?",
+  "correct": "Athletico-PR",
+  "options": [
+   "Athletico-PR",
+   "Coritiba",
+   "Paraná Clube",
+   "Operário"
+  ],
+  "reference": "Estádios",
+  "explanation": "O estádio fica em Curitiba."
+ },
+ {
+  "id": 214,
+  "category": "CUR",
+  "question": "Em qual cidade fica a Arena Fonte Nova?",
+  "correct": "Salvador",
+  "options": [
+   "Salvador",
+   "Recife",
+   "Fortaleza",
+   "Natal"
+  ],
+  "reference": "Estádios",
+  "explanation": "A arena foi uma das sedes da Copa de 2014."
+ },
+ {
+  "id": 215,
+  "category": "CUR",
+  "question": "Qual clube inaugurou a Arena MRV, em 2023?",
+  "correct": "Atlético-MG",
+  "options": [
+   "Atlético-MG",
+   "Cruzeiro",
+   "América-MG",
+   "Grêmio"
+  ],
+  "reference": "Estádios",
+  "explanation": "A arena fica em Belo Horizonte."
+ },
+ {
+  "id": 216,
+  "category": "CUR",
+  "question": "Quantas seleções disputam a Copa do Mundo de 2026?",
+  "correct": "48",
+  "options": [
+   "48",
+   "32",
+   "40",
+   "64"
+  ],
+  "reference": "Copa de 2026",
+  "explanation": "Foi a primeira Copa com 48 seleções, nos Estados Unidos, no Canadá e no México."
+ },
+ {
+  "id": 217,
+  "category": "CUR",
+  "question": "Qual país vai sediar a Copa de 2030 junto com Espanha e Portugal?",
+  "correct": "Marrocos",
+  "options": [
+   "Marrocos",
+   "Itália",
+   "França",
+   "Argélia"
+  ],
+  "reference": "Copa de 2030",
+  "explanation": "Uruguai, Argentina e Paraguai recebem jogos comemorativos dos 100 anos da Copa."
+ },
+ {
+  "id": 218,
+  "category": "CUR",
+  "question": "Qual revista criou o prêmio Bola de Ouro?",
+  "correct": "France Football",
+  "options": [
+   "France Football",
+   "Placar",
+   "Kicker",
+   "World Soccer"
+  ],
+  "reference": "Bola de Ouro",
+  "explanation": "O prêmio é entregue desde 1956."
  }
 ];
