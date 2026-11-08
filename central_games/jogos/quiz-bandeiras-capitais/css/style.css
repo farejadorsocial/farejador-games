@@ -211,3 +211,136 @@ header .hub+button{margin-left:8px}
 header .hub:focus-visible{outline:3px solid #ffe083;outline-offset:2px}
 .hubbtn{display:flex;align-items:center;justify-content:center;text-decoration:none}
 @media(max-width:480px){header .hub{width:38px;padding:0;justify-content:center;font-size:17px}header .hub .t{display:none}header{gap:9px}header b{font-size:14px;letter-spacing:1.4px}}
+
+/* >>> TEMA PROPRIO (gerado) >>> */
+
+/* ================================================================
+   IDENTIDADE PRÓPRIA DO TEMA (camada final, substitui o visual base)
+   As variáveis são definidas no bloco do tema logo abaixo.
+   ================================================================ */
+body:before{display:none}
+body{background:var(--scene);background-attachment:fixed;color:var(--txt);font-family:var(--fb)}
+body:after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background:var(--overlay,none)}
+.app{position:relative;z-index:1}
+header{background:var(--hbg);box-shadow:var(--hshadow);border-bottom:var(--hborder,0);border-radius:var(--hr,0 0 18px 18px)}
+header small{font-family:var(--fm);color:var(--hsmall);letter-spacing:2px;font-size:8px;font-weight:600}
+header b{font-family:var(--fh);color:var(--htxt);text-shadow:var(--hglow,none);letter-spacing:var(--hls,2px);font-weight:700}
+header .seal{background:var(--sealbg);border:var(--sealborder);color:var(--ink);box-shadow:var(--sealshadow,none)}
+header button,header .hub{background:transparent;border:1.5px solid var(--hline);color:var(--htxt);font-family:var(--fb)}
+header .hub:hover{background:var(--hline)}
+h1,h2{font-family:var(--fh);color:var(--title);text-shadow:var(--tshadow,none);-webkit-text-stroke:0;letter-spacing:var(--tls,0);font-weight:var(--tw,700)}
+h1 em,h2 em{color:var(--accent);font-family:var(--fem,var(--fh));font-style:var(--emstyle,normal);text-shadow:var(--emglow,var(--tshadow,none))}
+p{background:var(--pbg);color:var(--ptxt);border:var(--pborder,0);font-family:var(--fb);border-radius:var(--r);box-shadow:var(--pshadow,none)}
+.paper p,.infobox p,.modalbox p,.achievement p{background:none;border:0;padding:0;box-shadow:none}
+.screen>label,.paper label,.question-meta label{background:var(--chipbg);color:var(--chiptxt);font-family:var(--fm);border-radius:var(--chipr,20px);border:var(--chipborder,0);letter-spacing:2px}
+.gold{background:var(--btn);color:var(--btntxt);border:var(--btnborder,0);box-shadow:var(--btnshadow);font-family:var(--fbtn,var(--fm));border-radius:var(--br,var(--r));font-size:12px;letter-spacing:2px}
+.gold:active{transform:translateY(2px);box-shadow:none}
+.outline,.daily{background:var(--card);color:var(--ink);border:var(--cardborder);box-shadow:var(--cardshadow);font-family:var(--fm);border-radius:var(--br,var(--r))}
+.daily b{color:var(--ink2);font-family:var(--fm)}.daily small{color:var(--soft);font-family:var(--fb)}
+.link{background:var(--linkbg,transparent);color:var(--linktxt);font-family:var(--fm);border:var(--linkborder,1px dashed var(--hline));border-radius:var(--br,var(--r))}
+.back{background:var(--card);color:var(--ink);border:var(--cardborder);font-family:var(--fb);border-radius:var(--br,var(--r))}
+.cats button{background:var(--card);border:var(--cardborder);border-left:6px solid var(--accent);box-shadow:var(--cardshadow);color:var(--accent2);border-radius:var(--r)}
+.cats button:nth-child(2n){border-left-color:var(--accent2)}.cats button:nth-child(3n){border-left-color:var(--accent3)}
+.cats b{font-family:var(--fh);color:var(--ink);font-size:14px;letter-spacing:.3px}
+.cats small{font-family:var(--fb);color:var(--soft);font-size:11.5px}
+.hint,footer{color:var(--hinttxt);font-family:var(--fm)}
+footer a,.fg-legal a{color:var(--hinttxt)}
+.gamebar button,.gamebar span{background:var(--chipbg);color:var(--chiptxt);font-family:var(--fb);border:var(--chipborder,0)}
+.gamebar small{background:var(--accent);color:var(--btntxt);font-family:var(--fm);border-radius:var(--chipr,14px)}
+.stats div{background:var(--panel);color:var(--paneltxt);border:var(--panelborder,0);box-shadow:var(--cardshadow);font-family:var(--fm);border-radius:var(--r)}
+.stats b,.stats div:nth-child(2) b{color:var(--panelnum);font-family:var(--fh)}
+.helps button{background:var(--card);color:var(--ink);border:var(--cardborder);box-shadow:var(--cardshadow);font-family:var(--fb);border-radius:var(--r)}
+.helps button i{background:var(--accent);color:var(--btntxt)}
+.progress{background:var(--track);border-radius:var(--r)}.progress span{background:var(--bar)}
+.paper{background:var(--paper);border:var(--paperborder,0);border-radius:var(--pr,var(--r));box-shadow:var(--papershadow);color:var(--ink)}
+.paper h2{font-family:var(--fq,var(--fh));color:var(--ink);font-size:var(--qsize,22px);letter-spacing:0;font-weight:var(--qw,700);line-height:1.25}
+.question-meta small{color:var(--soft);font-family:var(--fm)}
+.flourish{color:var(--accent2)}
+.answer{background:var(--ans);border:var(--ansborder);color:var(--ink);font-family:var(--fb);border-radius:var(--ar,var(--r));font-size:13px}
+.answer:not(:disabled):hover{background:var(--anshover);border-color:var(--accent2)}
+.answer .key{border-color:var(--accent2);color:var(--accent2);font-family:var(--fm)}
+.answer.correct{background:var(--okbg,#c9efcf);border-color:var(--ok,#2e8b57);color:var(--oktxt,var(--ink))}
+.answer.wrong{background:var(--badbg,#f8d0c8);border-color:var(--bad,#c0452f);color:var(--badtxt,var(--ink))}
+.answer.correct .key{background:var(--ok,#2e8b57);border-color:var(--ok,#2e8b57);color:#fff}
+.answer.wrong .key{background:var(--bad,#c0452f);border-color:var(--bad,#c0452f);color:#fff}
+#feedback{background:var(--fbbg);border-left:4px solid var(--accent);color:var(--ink);font-family:var(--fb);font-size:12.5px}
+#feedback button{background:var(--nextbg,var(--ink));color:var(--nexttxt,#fff);font-family:var(--fm);border-radius:var(--br,var(--r))}
+.scorebox{background:var(--card);border:var(--cardborder);box-shadow:var(--cardshadow);color:var(--soft);font-family:var(--fm);border-radius:var(--r)}
+.scorebox strong{color:var(--ink);font-family:var(--fh)}.scorebox small{color:var(--soft);font-family:var(--fb)}
+.medallion{background:var(--card);border:var(--cardborder);box-shadow:var(--cardshadow);color:var(--ink)}
+.infobox{background:var(--card);border:var(--cardborder);box-shadow:var(--cardshadow);border-radius:var(--r)}
+.infobox b{color:var(--ink2);font-family:var(--fh)}.infobox p{color:var(--soft);font-family:var(--fb)}
+.recordstats div,.catrecords div{background:var(--card);border:var(--cardborder);color:var(--soft);font-family:var(--fm);border-radius:var(--r);box-shadow:var(--cardshadow)}
+.recordstats b,.catrecords b{color:var(--ink);font-family:var(--fh)}.catrecords span{color:var(--ink2);font-family:var(--fm)}.catrecords small{color:var(--soft)}
+.achievement{background:var(--card);border:var(--cardborder);border-radius:var(--r);box-shadow:var(--cardshadow)}
+.achievement b{color:var(--ink);font-family:var(--fh)}.achievement small{color:var(--soft)}.achievement>strong{color:var(--ink2);font-family:var(--fm)}
+.achievement.unlocked{background:var(--fbbg);border-color:var(--accent)}
+.achievement-track{background:var(--track)}.achievement-track i{background:var(--bar)}
+.modal{background:#000a}.modalbox{background:var(--paper);border:var(--cardborder);border-radius:var(--r)}.modalbox p{color:var(--ink)}
+.modalbox .outline{background:var(--ans);color:var(--ink)}
+.toast{background:var(--paper);color:var(--ink);border-color:var(--accent);font-family:var(--fb)}
+.bookinner{transform:none}
+
+/* ===== BANDEIRAS E CAPITAIS: aeroporto internacional, painel de embarque e cartão de embarque ===== */
+:root{
+ --fh:'Bebas Neue',Impact,sans-serif;--fb:'Inter',Arial,sans-serif;--fm:'IBM Plex Mono',monospace;--fq:'Inter',Arial,sans-serif;--qw:800;--qsize:21px;
+ --ink:#0d1b36;--ink2:#1f4f9c;--soft:#5b6b86;--accent:#ffb81c;--accent2:#1f6fd1;--accent3:#e8463a;
+ --txt:#eaf2ff;--title:#ffffff;--tshadow:0 0 22px #4fb3ff44;--tls:1.5px;--tw:400;
+ --scene:radial-gradient(circle,#ffffff1f 1.2px,transparent 1.6px) 0 0/18px 18px,
+  radial-gradient(circle at 50% 135%,transparent 0 560px,#4fb3ff2e 561px 563px,transparent 564px),
+  radial-gradient(circle at 15% 120%,transparent 0 420px,#ffb81c26 421px 423px,transparent 424px),
+  radial-gradient(circle at 90% 115%,transparent 0 380px,#4fb3ff22 381px 383px,transparent 384px),
+  linear-gradient(180deg,#061024 0,#0c1f45 55%,#173a72 100%);
+ --overlay:linear-gradient(180deg,transparent 70%,#4fb3ff14);
+ --hbg:#05080f;--hshadow:0 2px 0 #ffb81c,0 8px 22px #0009;--hsmall:#ffb81c;--htxt:#fff;--hline:#ffffff44;--hls:3px;--hr:0 0 14px 14px;
+ --sealbg:#ffb81c;--sealborder:0;
+ --pbg:#0c1f45e6;--ptxt:#d8e6ff;--pborder:1px solid #4fb3ff44;
+ --chipbg:#05080f;--chiptxt:#ffb81c;--chipr:4px;--chipborder:1px solid #ffb81c66;
+ --btn:#ffb81c;--btntxt:#05080f;--btnshadow:0 4px 0 #a86f00,0 0 24px #ffb81c44;--br:8px;--fbtn:'Bebas Neue',sans-serif;
+ --card:#fdfdf8;--cardborder:0;--cardshadow:0 6px 18px #0007;--linktxt:#ffb81c;--linkborder:1px solid #ffb81c55;
+ --hinttxt:#9fb6dc;--panel:#05080f;--paneltxt:#8aa0c4;--panelborder:1px solid #ffffff1f;--panelnum:#ffb81c;
+ --track:#ffffff1f;--bar:repeating-linear-gradient(90deg,#ffb81c 0 18px,#05080f 18px 22px);
+ --paper:#fdfdf8;--papershadow:0 18px 40px #000a;--pr:18px;
+ --ans:#f2f6fc;--ansborder:1.5px solid #d6e1f0;--anshover:#e6efff;--ar:10px;--fbbg:#fff4d8;--r:12px;
+ --okbg:#d4f3df;--ok:#1f9d55;--badbg:#ffd9d4;--bad:#e8463a;--nextbg:#0d1b36}
+h1,h2{line-height:.95}
+h1{font-size:62px}h2{font-size:52px}.ending h2{font-size:52px}
+h1 em,h2 em{color:#ffb81c}
+.screen>label,.paper label,.question-meta label{font-size:9px;font-weight:600;padding:5px 10px}
+.gold{font-size:20px;letter-spacing:3px;font-weight:400}
+.outline,.daily{font-weight:600}
+/* painel de embarque: placar com letras de aeroporto */
+.stats div{font-family:'IBM Plex Mono',monospace}
+.stats b,.stats div:nth-child(2) b{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:20px;background:repeating-linear-gradient(180deg,transparent 0 50%,#ffffff10 50% calc(50% + 1px),transparent calc(50% + 1px));padding:2px 0}
+.gamebar small{background:#05080f;color:#ffb81c;border:1px solid #ffb81c66}
+/* cartão de embarque com recortes laterais */
+.cats button{-webkit-mask:radial-gradient(circle 9px at calc(100% - 54px) 0,#0000 97%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - 54px) 100%,#0000 97%,#000) bottom/100% 51% no-repeat;mask:radial-gradient(circle 9px at calc(100% - 54px) 0,#0000 97%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - 54px) 100%,#0000 97%,#000) bottom/100% 51% no-repeat}
+.cats button{border-left:0;background:linear-gradient(90deg,#fdfdf8 calc(100% - 54px),#eef3fb calc(100% - 54px));color:#1f4f9c;padding-left:16px;box-shadow:none}
+.cats button:after{content:'✈';position:absolute;right:20px;color:#1f4f9c;font-size:15px}
+.cats button{position:relative}
+.cats b{font-family:'Bebas Neue',sans-serif;font-size:21px;letter-spacing:1.5px;font-weight:400}
+.cats button{color:transparent}
+.modes button{background:#fdfdf8;color:#0d1b36;font:400 17px 'Bebas Neue',sans-serif;letter-spacing:1.5px;border-radius:8px;box-shadow:0 3px 0 #0007}
+.modes button.on{background:#ffb81c;color:#05080f;box-shadow:0 3px 0 #a86f00}
+.paper{padding:18px 16px 16px;background:linear-gradient(#0d1b36,#0d1b36) top/100% 10px no-repeat,#fdfdf8}
+.paper:before{display:none}
+.question-meta{border-bottom:2px dashed #c9d6ea;padding-bottom:12px}
+.paper label,.question-meta label{background:#0d1b36;color:#ffb81c}
+.paper h2{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:32px;letter-spacing:1px;line-height:1}
+#flagbox img{border:6px solid #fff;border-radius:6px;box-shadow:0 0 0 1px #c9d6ea,0 10px 22px #0d1b3640;transform:rotate(-1.5deg)}
+.flourish{display:none}
+.answer .key{border-radius:4px;font-family:'IBM Plex Mono',monospace}
+#feedback{border-left:4px solid #ffb81c;border-radius:10px}
+.scorebox strong{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:70px}
+.medallion{background:#ffb81c;border:0;box-shadow:0 0 30px #ffb81c66}
+/* capa: passaporte */
+.book:before{background:#4fb3ff;opacity:.25}
+.bookinner{width:170px;height:226px;border-radius:6px 16px 16px 6px;padding:16px 12px;background:radial-gradient(ellipse at 30% 20%,#2c4f9c,#14275a 70%,#0b1838);box-shadow:inset 8px 0 0 #0b1838,inset 9px 0 0 #ffffff22,0 18px 30px #000a;color:#ffd77a;transform:rotate(-4deg)}
+.bookinner:after{inset:10px 10px 10px 18px;border:1.5px solid #ffd77a66;border-radius:4px}
+.bookinner strong{font-family:'Bebas Neue',sans-serif;font-weight:400;color:#ffd77a;font-size:28px;letter-spacing:3px;line-height:1}
+.bookinner strong span{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:4px}
+.bookinner small{font-family:'IBM Plex Mono',monospace;color:#ffd77acc;font-size:6.5px}
+.bookinner i{background:#ffd77a99}
+.bookinner .cross{font-size:54px;filter:drop-shadow(0 0 10px #4fb3ff88)}
+@media(max-height:760px){.book{height:215px}.bookinner{transform:rotate(-4deg) scale(.84)}}
+/* <<< TEMA PROPRIO <<< */

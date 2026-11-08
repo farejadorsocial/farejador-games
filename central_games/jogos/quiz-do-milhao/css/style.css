@@ -104,3 +104,146 @@ header .hub+button{margin-left:8px}
 header .hub:focus-visible{outline:3px solid #ffe083;outline-offset:2px}
 .hubbtn{display:flex;align-items:center;justify-content:center;text-decoration:none}
 @media(max-width:480px){header .hub{width:38px;padding:0;justify-content:center;font-size:17px}header .hub .t{display:none}header{gap:9px}header b{font-size:14px;letter-spacing:1.4px}}
+
+/* >>> TEMA PROPRIO (gerado) >>> */
+
+/* ================================================================
+   IDENTIDADE PRÓPRIA DO TEMA (camada final, substitui o visual base)
+   As variáveis são definidas no bloco do tema logo abaixo.
+   ================================================================ */
+body:before{display:none}
+body{background:var(--scene);background-attachment:fixed;color:var(--txt);font-family:var(--fb)}
+body:after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background:var(--overlay,none)}
+.app{position:relative;z-index:1}
+header{background:var(--hbg);box-shadow:var(--hshadow);border-bottom:var(--hborder,0);border-radius:var(--hr,0 0 18px 18px)}
+header small{font-family:var(--fm);color:var(--hsmall);letter-spacing:2px;font-size:8px;font-weight:600}
+header b{font-family:var(--fh);color:var(--htxt);text-shadow:var(--hglow,none);letter-spacing:var(--hls,2px);font-weight:700}
+header .seal{background:var(--sealbg);border:var(--sealborder);color:var(--ink);box-shadow:var(--sealshadow,none)}
+header button,header .hub{background:transparent;border:1.5px solid var(--hline);color:var(--htxt);font-family:var(--fb)}
+header .hub:hover{background:var(--hline)}
+h1,h2{font-family:var(--fh);color:var(--title);text-shadow:var(--tshadow,none);-webkit-text-stroke:0;letter-spacing:var(--tls,0);font-weight:var(--tw,700)}
+h1 em,h2 em{color:var(--accent);font-family:var(--fem,var(--fh));font-style:var(--emstyle,normal);text-shadow:var(--emglow,var(--tshadow,none))}
+p{background:var(--pbg);color:var(--ptxt);border:var(--pborder,0);font-family:var(--fb);border-radius:var(--r);box-shadow:var(--pshadow,none)}
+.paper p,.infobox p,.modalbox p,.achievement p{background:none;border:0;padding:0;box-shadow:none}
+.screen>label,.paper label,.question-meta label{background:var(--chipbg);color:var(--chiptxt);font-family:var(--fm);border-radius:var(--chipr,20px);border:var(--chipborder,0);letter-spacing:2px}
+.gold{background:var(--btn);color:var(--btntxt);border:var(--btnborder,0);box-shadow:var(--btnshadow);font-family:var(--fbtn,var(--fm));border-radius:var(--br,var(--r));font-size:12px;letter-spacing:2px}
+.gold:active{transform:translateY(2px);box-shadow:none}
+.outline,.daily{background:var(--card);color:var(--ink);border:var(--cardborder);box-shadow:var(--cardshadow);font-family:var(--fm);border-radius:var(--br,var(--r))}
+.daily b{color:var(--ink2);font-family:var(--fm)}.daily small{color:var(--soft);font-family:var(--fb)}
+.link{background:var(--linkbg,transparent);color:var(--linktxt);font-family:var(--fm);border:var(--linkborder,1px dashed var(--hline));border-radius:var(--br,var(--r))}
+.back{background:var(--card);color:var(--ink);border:var(--cardborder);font-family:var(--fb);border-radius:var(--br,var(--r))}
+.cats button{background:var(--card);border:var(--cardborder);border-left:6px solid var(--accent);box-shadow:var(--cardshadow);color:var(--accent2);border-radius:var(--r)}
+.cats button:nth-child(2n){border-left-color:var(--accent2)}.cats button:nth-child(3n){border-left-color:var(--accent3)}
+.cats b{font-family:var(--fh);color:var(--ink);font-size:14px;letter-spacing:.3px}
+.cats small{font-family:var(--fb);color:var(--soft);font-size:11.5px}
+.hint,footer{color:var(--hinttxt);font-family:var(--fm)}
+footer a,.fg-legal a{color:var(--hinttxt)}
+.gamebar button,.gamebar span{background:var(--chipbg);color:var(--chiptxt);font-family:var(--fb);border:var(--chipborder,0)}
+.gamebar small{background:var(--accent);color:var(--btntxt);font-family:var(--fm);border-radius:var(--chipr,14px)}
+.stats div{background:var(--panel);color:var(--paneltxt);border:var(--panelborder,0);box-shadow:var(--cardshadow);font-family:var(--fm);border-radius:var(--r)}
+.stats b,.stats div:nth-child(2) b{color:var(--panelnum);font-family:var(--fh)}
+.helps button{background:var(--card);color:var(--ink);border:var(--cardborder);box-shadow:var(--cardshadow);font-family:var(--fb);border-radius:var(--r)}
+.helps button i{background:var(--accent);color:var(--btntxt)}
+.progress{background:var(--track);border-radius:var(--r)}.progress span{background:var(--bar)}
+.paper{background:var(--paper);border:var(--paperborder,0);border-radius:var(--pr,var(--r));box-shadow:var(--papershadow);color:var(--ink)}
+.paper h2{font-family:var(--fq,var(--fh));color:var(--ink);font-size:var(--qsize,22px);letter-spacing:0;font-weight:var(--qw,700);line-height:1.25}
+.question-meta small{color:var(--soft);font-family:var(--fm)}
+.flourish{color:var(--accent2)}
+.answer{background:var(--ans);border:var(--ansborder);color:var(--ink);font-family:var(--fb);border-radius:var(--ar,var(--r));font-size:13px}
+.answer:not(:disabled):hover{background:var(--anshover);border-color:var(--accent2)}
+.answer .key{border-color:var(--accent2);color:var(--accent2);font-family:var(--fm)}
+.answer.correct{background:var(--okbg,#c9efcf);border-color:var(--ok,#2e8b57);color:var(--oktxt,var(--ink))}
+.answer.wrong{background:var(--badbg,#f8d0c8);border-color:var(--bad,#c0452f);color:var(--badtxt,var(--ink))}
+.answer.correct .key{background:var(--ok,#2e8b57);border-color:var(--ok,#2e8b57);color:#fff}
+.answer.wrong .key{background:var(--bad,#c0452f);border-color:var(--bad,#c0452f);color:#fff}
+#feedback{background:var(--fbbg);border-left:4px solid var(--accent);color:var(--ink);font-family:var(--fb);font-size:12.5px}
+#feedback button{background:var(--nextbg,var(--ink));color:var(--nexttxt,#fff);font-family:var(--fm);border-radius:var(--br,var(--r))}
+.scorebox{background:var(--card);border:var(--cardborder);box-shadow:var(--cardshadow);color:var(--soft);font-family:var(--fm);border-radius:var(--r)}
+.scorebox strong{color:var(--ink);font-family:var(--fh)}.scorebox small{color:var(--soft);font-family:var(--fb)}
+.medallion{background:var(--card);border:var(--cardborder);box-shadow:var(--cardshadow);color:var(--ink)}
+.infobox{background:var(--card);border:var(--cardborder);box-shadow:var(--cardshadow);border-radius:var(--r)}
+.infobox b{color:var(--ink2);font-family:var(--fh)}.infobox p{color:var(--soft);font-family:var(--fb)}
+.recordstats div,.catrecords div{background:var(--card);border:var(--cardborder);color:var(--soft);font-family:var(--fm);border-radius:var(--r);box-shadow:var(--cardshadow)}
+.recordstats b,.catrecords b{color:var(--ink);font-family:var(--fh)}.catrecords span{color:var(--ink2);font-family:var(--fm)}.catrecords small{color:var(--soft)}
+.achievement{background:var(--card);border:var(--cardborder);border-radius:var(--r);box-shadow:var(--cardshadow)}
+.achievement b{color:var(--ink);font-family:var(--fh)}.achievement small{color:var(--soft)}.achievement>strong{color:var(--ink2);font-family:var(--fm)}
+.achievement.unlocked{background:var(--fbbg);border-color:var(--accent)}
+.achievement-track{background:var(--track)}.achievement-track i{background:var(--bar)}
+.modal{background:#000a}.modalbox{background:var(--paper);border:var(--cardborder);border-radius:var(--r)}.modalbox p{color:var(--ink)}
+.modalbox .outline{background:var(--ans);color:var(--ink)}
+.toast{background:var(--paper);color:var(--ink);border-color:var(--accent);font-family:var(--fb)}
+.bookinner{transform:none}
+
+/* ===== QUIZ DO MILHÃO: palco de programa de prêmios, holofotes e dourado ===== */
+:root{
+ --fh:'Montserrat',Arial,sans-serif;--fb:'Inter',Arial,sans-serif;--fm:'Montserrat',Arial,sans-serif;--qsize:20px;--qw:700;
+ --ink:#fff8e6;--ink2:#f7c948;--soft:#b9b3e0;--accent:#f7c948;--accent2:#f7c948;--accent3:#ffe9a6;
+ --txt:#fff8e6;--title:#ffffff;--tshadow:0 4px 24px #000c;--tls:-1px;--tw:900;
+ --scene:conic-gradient(from 150deg at 18% -6%,transparent 0 6deg,#fff2c21c 6deg 15deg,transparent 15deg 26deg,#fff2c214 26deg 31deg,transparent 31deg 360deg),
+  conic-gradient(from 166deg at 82% -6%,transparent 0 13deg,#fff2c214 13deg 18deg,transparent 18deg 29deg,#fff2c21c 29deg 38deg,transparent 38deg 360deg),
+  radial-gradient(ellipse 90% 30% at 50% 104%,#f7c94855,transparent 70%),
+  radial-gradient(ellipse at 50% 0,#2b1f78 0,#140d44 45%,#07061a 100%);
+ --overlay:radial-gradient(circle at 12% 40%,#fff6 0 1.2px,transparent 2px),radial-gradient(circle at 86% 30%,#fff5 0 1.2px,transparent 2px),radial-gradient(circle at 70% 75%,#f7c948aa 0 1.4px,transparent 2.2px),radial-gradient(circle at 30% 85%,#f7c94888 0 1.2px,transparent 2px);
+ --hbg:#07061acc;--hshadow:0 1px 0 #f7c948,0 10px 30px #0009;--hsmall:#f7c948;--htxt:#fff;--hline:#f7c94877;--hls:2px;--hr:0 0 18px 18px;
+ --sealbg:linear-gradient(135deg,#ffe9a6,#f7c948 45%,#b9831a);--sealborder:0;
+ --pbg:#140d44cc;--ptxt:#e7e2ff;--pborder:1px solid #f7c94844;
+ --chipbg:linear-gradient(135deg,#ffe9a6,#f7c948 50%,#c8901a);--chiptxt:#1a1048;--chipr:999px;
+ --btn:linear-gradient(180deg,#ffe9a6,#f7c948 45%,#c8901a);--btntxt:#1a1048;--btnshadow:0 4px 0 #8a5d0a,0 0 30px #f7c94855;--br:999px;
+ --card:linear-gradient(180deg,#1e1660,#130d40);--cardborder:1.5px solid #f7c94866;--cardshadow:0 8px 24px #0008;--linktxt:#f7c948;--linkborder:1px solid #f7c94855;
+ --hinttxt:#9d96cc;--panel:linear-gradient(180deg,#1e1660,#110b38);--paneltxt:#b9b3e0;--panelborder:1.5px solid #f7c94855;--panelnum:#fff;
+ --track:#ffffff1a;--bar:linear-gradient(90deg,#c8901a,#ffe9a6);
+ --paper:linear-gradient(180deg,#1a125acc,#0d0930ee);--paperborder:2px solid #f7c948aa;--papershadow:0 0 0 6px #f7c94814,0 20px 50px #000c,inset 0 1px 0 #ffffff22;--pr:24px;
+ --ans:linear-gradient(180deg,#221a6b,#150f47);--ansborder:2px solid #c8901a;--anshover:linear-gradient(180deg,#2d2386,#1a125a);--ar:999px;--fbbg:#1d1458;--r:16px;
+ --okbg:linear-gradient(180deg,#22b468,#137a43);--ok:#7dffb4;--oktxt:#fff;--badbg:linear-gradient(180deg,#e2465b,#9c1f33);--bad:#ff9aa8;--badtxt:#fff;--nextbg:linear-gradient(180deg,#ffe9a6,#f7c948 45%,#c8901a);--nexttxt:#1a1048}
+h1{font-size:46px;line-height:.95;text-transform:uppercase}
+h1 em,h2 em{background:linear-gradient(180deg,#fff3c4,#f7c948 50%,#c8901a);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;filter:drop-shadow(0 3px 0 #6b4606)}
+h2{font-size:40px;text-transform:uppercase;line-height:.95}
+.screen>label,.paper label,.question-meta label{font-size:9px;font-weight:800;padding:5px 12px}
+.gold{font-weight:900;font-size:13px;letter-spacing:2px}
+.outline,.daily{font-weight:800}
+.answer{font-weight:600;padding-left:12px}
+.answer .key{background:linear-gradient(180deg,#ffe9a6,#f7c948 50%,#c8901a);color:#1a1048;border:0;font-weight:900}
+.answer.selected{background:linear-gradient(180deg,#ffe9a6,#f7c948 50%,#c8901a);border-color:#fff3c4;color:#1a1048;box-shadow:0 0 22px #f7c94877}
+.answer.selected .key{background:#1a1048;color:#f7c948}
+.answer.removed{opacity:.25}
+/* placar de prêmios */
+.gamebar button{background:#130d40;color:#f7c948;border:1.5px solid #f7c94866;font-family:'Montserrat',sans-serif;font-weight:800}
+.gamebar small{background:linear-gradient(135deg,#ffe9a6,#f7c948 50%,#c8901a);color:#1a1048;font-family:'Montserrat',sans-serif;font-weight:800}
+.prizes div{background:linear-gradient(180deg,#1e1660,#110b38);border:1.5px solid #f7c94844;box-shadow:0 6px 18px #0007;border-radius:16px}
+.prizes span{font-family:'Montserrat',sans-serif;font-weight:700;color:#b9b3e0}
+.prizes b{font-family:'Montserrat',sans-serif;font-weight:900}
+.prizes .now{background:linear-gradient(180deg,#ffe9a6,#f7c948 45%,#c8901a);border:0;box-shadow:0 4px 0 #8a5d0a,0 0 28px #f7c94866}
+.prizes .now span{color:#5a3a06}.prizes .now b{color:#1a1048;font-size:21px}
+.prizes .lose b{color:#ff9aa8}.prizes .stopv b{color:#7dffb4}
+.dots i{background:#ffffff22;height:7px}.dots i.check{background:#f7c94855}.dots i.done{background:#f7c948;box-shadow:0 0 8px #f7c94888}.dots i.now{background:#fff;box-shadow:0 0 0 2px #f7c948,0 0 12px #f7c948}
+.helps button{border-radius:14px;font-weight:600}
+.helps button i{background:#f7c948;color:#1a1048}
+#confirm{background:linear-gradient(180deg,#ffe9a6,#f7c948 45%,#c8901a);color:#1a1048;border:0;border-radius:999px;font-family:'Montserrat',sans-serif;font-weight:900;box-shadow:0 4px 0 #8a5d0a,0 0 26px #f7c94855}
+#confirm:disabled{background:#ffffff14;color:#9d96cc;box-shadow:none;border:1.5px dashed #f7c94844}
+#helpbox{background:#1d1458;border-left:4px solid #f7c948;color:#fff8e6}
+.bar i{background:linear-gradient(90deg,#c8901a,#ffe9a6)}
+.question-meta small{color:#f7c948}
+.paper:before{display:block;inset:0;border:0;border-radius:24px;background:radial-gradient(ellipse 80% 40% at 50% 0,#ffffff14,transparent 70%);pointer-events:none}
+.paper>*{position:relative}
+/* moeda no palco */
+.coin{position:relative}
+.coin:before{content:'';position:absolute;width:260px;height:80px;bottom:6px;left:50%;transform:translateX(-50%);background:radial-gradient(ellipse,#f7c94866,transparent 70%)}
+.coinface{border:6px solid #fff3c4;box-shadow:0 10px 0 #8a5d0a,0 0 50px #f7c94888,0 22px 30px #000a;position:relative}
+.coinface small,.coinface b,.coinface strong{font-family:'Montserrat',sans-serif;font-weight:900}
+/* escada de prêmios */
+.modalbox.ladder{background:linear-gradient(180deg,#1a125a,#0d0930);border:2px solid #f7c948aa;color:#fff}
+.ladder b{color:#f7c948;font-family:'Montserrat',sans-serif}
+.ladder li{background:#ffffff0d;color:#fff8e6;border-radius:999px}
+.ladder li span{color:#9d96cc}
+.ladder li.check{background:#f7c9481f;box-shadow:inset 0 0 0 1.5px #f7c94888}
+.ladder li.now{background:linear-gradient(180deg,#ffe9a6,#f7c948 50%,#c8901a);color:#1a1048}
+.scorebox strong{background:linear-gradient(180deg,#fff3c4,#f7c948 50%,#c8901a);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:900}
+.medallion{background:radial-gradient(circle at 35% 30%,#fff3c4,#f7c948 50%,#c8901a);border:0;box-shadow:0 0 40px #f7c94877}
+.ladder li.done b{color:#7dffb4}
+.ladder b{color:inherit}
+.ladder>b{color:#f7c948}
+.ladder li em{color:#f7c948}
+.answer.selected,.answer.selected:hover,.answer.selected:not(:disabled):hover{background:linear-gradient(180deg,#ffe9a6,#f7c948 50%,#c8901a)!important;color:#1a1048!important;border-color:#fff3c4!important}
+.answer.selected span{color:#1a1048}
+.ladder li.now,.ladder li.now *{color:#1a1048!important}
+/* <<< TEMA PROPRIO <<< */
